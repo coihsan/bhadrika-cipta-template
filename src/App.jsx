@@ -2,6 +2,10 @@ import { useState } from 'react';
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Aboutme from "./components/Aboutme";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Offering from "./components/Offering";
+import Contact from "./components/Contact";
 import { motion } from "framer-motion";
 // import {BrowserRouter} from 'react-router-dom';
 // import {Aboutme, Hero, Navbar, Contact, Skills, Projects, Offering} from '../components';
@@ -14,6 +18,10 @@ function App() {
       <Navbar/>
       <Hero />
       <Aboutme />
+      <Skills/>
+      <Projects/>
+      <Offering/>
+      <Contact/>
     </div>
   )
 }
