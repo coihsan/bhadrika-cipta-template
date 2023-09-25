@@ -7,8 +7,7 @@ import Projects from "./components/Projects";
 import Offering from "./components/Offering";
 import Contact from "./components/Contact";
 import { motion } from "framer-motion";
-// import {BrowserRouter} from 'react-router-dom';
-// import {Aboutme, Hero, Navbar, Contact, Skills, Projects, Offering} from '../components';
+
 import './App.css';
 
 function App() {

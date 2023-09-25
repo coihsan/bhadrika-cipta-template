@@ -1,11 +1,12 @@
 import { useState } from 'react'
 
+
 function Navbar(){
   return(
     <div className="NavbarEl">
       <nav className="topNav flex align-center justify-between">
         <a href="#" className="logo">coihsan</a>
-        <div className="navmenu">
+        <div className="navmenu absolute flex flex-col right-0 top-0">
           <a href="#">Home</a>
           <a href="#">Aboutme</a>
           <a href="#">Skills</a>
