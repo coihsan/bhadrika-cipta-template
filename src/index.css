@@ -35,6 +35,10 @@ body {
 }
 .section{
   max-width: 1100px;
+  margin: 0 auto;
+}
+.container{
+  padding: 0 20px;
 }
 .callToAction{
   padding: 10px 1.5rem;
@@ -75,7 +79,7 @@ body {
   opacity: 0;
   z-index: -2;
   border: 1px solid #ffffff;
-  width: 100%;
+  min-width: 300px;
   padding: 1rem;
 }
 .navmenu.active{
@@ -96,10 +100,6 @@ body {
 .hero-section{
   height: 100vh;
   width: 100%;
-}
-.hero-container{
-  margin: auto ;
-  padding: 0 20px;
 }
 .hero-container *{
   text-align: center;
