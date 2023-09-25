@@ -1,12 +1,23 @@
 import { useState } from 'react'
+import React from "react";
 
+  const Navbar = () =>{
+    const [isActive, setIsActive] = React.useState(false);
+    const [icon, setIcon] = useState("fa-bars");
 
-function Navbar(){
-  return(
-    <div className="NavbarEl">
-      <nav className="topNav flex align-center justify-between">
-        <a href="#" className="logo">coihsan</a>
-        <div className="navmenu absolute flex flex-col right-0 top-0">
+    const handleClick = () => {
+      setIsActive(!isActive)
+      setIcon(icon === "fa-bars" ? "fa-x" : "fa-bars");
+    };
+
+    return(
+      <nav className="NavbarEl fixed">
+      <div className="topNav flex align-center justify-between">
+      <div className="status-work">
+          <div className="bullet-pulse"></div> 
+          <span>Available for freelance</span>
+        </div>
+        <div className={`absolute justify-end flex flex-col top-0 navmenu ${isActive ? "active" : ""}`}>
           <a href="#">Home</a>
           <a href="#">Aboutme</a>
           <a href="#">Skills</a>
@@ -16,19 +27,10 @@ function Navbar(){
           <a href="#">Contact</a>
         </div>
         <div className="navbar-right">
-        
-        <div className="hamburger-menu">
-          <input type="checkbox" id="menu-toggle"/>
-          <div className="hamburger-line">
-              <span className="line line1"></span>
-              <span className="line line2"></span>
-              <span className="line line3"></span>
-          </div>
+        <button id="menu-toggle" className={'menu-toggle flex items-center justify-center ${isActive ? "active : "}'} onClick={handleClick}><i class="fa-solid fa-bars"></i></button>
         </div>
-        </div>
-      </nav>
-    </div>
-  )
-}
-
+      </div>
+    </nav>
+    )
+  }
 export default Navbar;
