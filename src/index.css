@@ -33,9 +33,11 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
+.section{
+  max-width: 1100px;
+}
 .callToAction{
-  padding: 1rem 2rem;
+  padding: 10px 1.5rem;
   color: #ffffff;
   border-radius: 50px;
   background: linear-gradient(90deg, #fb923c, #4f46e5);
@@ -46,12 +48,16 @@ body {
   transform: scale(0.95);
   color: #ffffff;
 }
+
+.link-certificate{
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
 /* NAVBAR COMPONENTS*/
 .NavbarEl{
   width: 100%;
 }
 .topNav{
-  max-width: 1100px;
   padding: 0 20px;
   margin: 0 auto;
 }
@@ -61,17 +67,16 @@ body {
   font-size: 2rem;
   opacity: 0;
 }
-.navbar-right{
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
+
 .navmenu{
   background-color: #121212;
-  transform: translateX(-100%);
+  transform: translateY(-100%);
   transition: 0.35s var(--transition-cubic-1);
   opacity: 0;
   z-index: -2;
+  border: 1px solid #ffffff;
+  width: 100%;
+  padding: 1rem;
 }
 .navmenu.active{
   transform: translate(0);
@@ -93,7 +98,6 @@ body {
   width: 100%;
 }
 .hero-container{
-  max-width: 1100px;
   margin: auto ;
   padding: 0 20px;
 }

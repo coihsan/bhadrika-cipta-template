@@ -12,12 +12,12 @@ import React from "react";
 
     return(
       <nav className="NavbarEl fixed">
-      <div className="topNav flex align-center justify-between">
+      <div className="topNav section flex align-center justify-between relative">
       <div className="status-work">
           <div className="bullet-pulse"></div> 
           <span>Available for freelance</span>
         </div>
-        <div className={`absolute justify-end flex flex-col top-0 navmenu ${isActive ? "active" : ""}`}>
+        <div className={`absolute flex gap-2.5 flex-col top-14 navmenu ${isActive ? "active" : ""}`}>
           <a href="#">Home</a>
           <a href="#">Aboutme</a>
           <a href="#">Skills</a>
