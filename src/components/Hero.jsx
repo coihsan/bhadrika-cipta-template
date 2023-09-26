@@ -12,7 +12,7 @@ function Hero(){
         <p className="Hello">Digital Marketing &amp; {'{Front-End Dev}'}</p>
         
         <div className="certificate flex items-center gap-5 justify-center mt-5">
-          <p>Credentials :</p>
+          <h4 className="text-xl">Credentials :</h4>
           <div className="skillshop flex items-center gap-1">
             <img className="w-11" src={google}/>
             <a className="link-certificate" href="">Skillshop</a>

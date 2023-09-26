@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import React from "react";
 import cardID from '../assets/id-card.svg';
+import Skills from './Skills';
 
   const Navbar = () =>{
     const [isActive, setIsActive] = React.useState(false);
@@ -15,12 +16,15 @@ import cardID from '../assets/id-card.svg';
       <nav className="NavbarEl fixed">
       <div className="topNav section flex align-center justify-between relative">
       <div className="status-work">
-          <div className="bullet-pulse"></div> 
+          <div className="flex item-center justify-center relative">
+            <div className="bullet-pulse absolute"></div> 
+            <div className="bullet-pulse animate-ping"></div> 
+          </div>
           <span>Available for freelance</span>
         </div>
         <div className={`absolute flex flex-col top-14 navmenu ${isActive ? "active" : ""}`}>
-          <a className="navlink" href="#">Aboutme</a>
-          <a className="navlink" href="#">Skills</a>
+          <a className="navlink" href={'./Aboutme'}>Aboutme</a>
+          <a className="navlink" href="#Skills">Skills</a>
           <a className="navlink" href="#">Offering</a>
           <a className="navlink" href="#">Projects</a>
           <a className="navlink" href="#">Blog</a>

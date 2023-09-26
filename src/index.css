@@ -45,8 +45,10 @@ body {
   color: #ffffff;
   border-radius: 50px;
   background: linear-gradient(90deg, #fb923c, #4f46e5);
+  border: 1px solid #fdba74;
   transition: 0.35s var(--transition-cubic-1);
   transform: scale(1);
+  box-shadow: 0px 6px 10px  #522500;
 }
 .callToAction:hover{
   transform: scale(0.95);
@@ -58,6 +60,11 @@ body {
 .link-certificate{
   text-decoration: underline;
   font-size: 1.5rem;
+}
+.link-color{
+  color: #018cff;
+  text-decoration: underline;
+  font-weight: 600;
 }
 /* NAVBAR COMPONENTS*/
 .NavbarEl{
@@ -180,22 +187,6 @@ body {
   border-radius: 50px;
   background-color: #48fd00;
   box-shadow: 0px 0px 12px 1px #03a72c;
-  animation: pulse 2s infinite ease;
-  opacity: 0.4;
-}
-@keyframes pulse{
-  from{
-    box-shadow: 0px 0px 1px 1px #03a72c;
-    opacity: 0.4;
-  }
-  50%{
-    box-shadow: 0px 0px 15px 1px #48fd00;
-    opacity: 1;
-  }
-  to{
-    box-shadow: 0px 0px 1px 1px #03a72c49;
-    opacity: 0.4;
-  }
 }
 
 @media screen and (max-width: 600px){
