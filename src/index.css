@@ -63,6 +63,19 @@ body {
   text-decoration: underline;
   font-weight: 600;
 }
+.text-indicator{
+  padding-left: 15px;
+}
+.text-indicator::before{
+  position: absolute;
+  content: "";
+  top: 0%;
+  left: 0;
+  transform: translate(-0%, 50%);
+  border-radius: 50px;
+  width: 10px;
+  height: 10px;
+}
 /* NAVBAR COMPONENTS*/
 .NavbarEl{
   width: 100%;
@@ -78,14 +91,11 @@ body {
 
 .navlink{
   padding: 10px 1rem;
-  transition: all 0.15s ease-in-out;
+  border-radius: 10px;
   font-size: 1.2rem;
 }
 .navlink:hover{
   background-color: #292929;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  padding-top: 2rem;
   color: #ffffff;
 }
 

@@ -10,7 +10,7 @@ function Skills(){
       <h1 className="text-5xl mb-8 font-bold">Skills</h1>
       {/* content */}
       <div className="flex items-center gap-3">
-          <div className="bg-gradient-to-t from-transparent via-zinc-500 to-zinc-900 rounded-md p-px">
+          <div className="bg-gradient-to-t from-transparent via-zinc-500 to-zinc-900 rounded-md p-0.5">
             <div className="p-5 bg-neutral-950 rounded-md">
               {/* skills header */}
               <div className="mb-6" >
@@ -21,16 +21,16 @@ function Skills(){
               {/* skills header */}
               {/* Progress */}
               <div className="grid gap-3">
-                <h5>Most Used Languages</h5>
+                <h5>Common Job</h5>
                 <div className="flex items-center relative w-full overflow-hidden h-2.5 rounded-md">
-                  <span className="w-2/5 bg-orange-500 h-2.5"></span>
-                  <span className="w-2/5 bg-blue-500 h-2.5"></span>
-                  <span className="w-2/5 bg-lime-500 h-2.5"></span>
+                  <span className="w-3/5 bg-orange-500 h-2.5"></span>
+                  <span className="w-1/5 bg-blue-500 h-2.5"></span>
+                  <span className="w-32 bg-yellow-500 h-2.5"></span>
                 </div>
                 <div className="flex items-center justify-between mb-5">
-                  <span className="relative font-bold text-sm">HTML</span>
-                  <span className="relative font-bold text-sm">CSS</span>
-                  <span className="relative font-bold text-sm">JS</span>
+                  <span className="text-indicator relative before:bg-orange-500 font-bold text-sm">Design 60%</span>
+                  <span className="text-indicator relative before:bg-blue-500 font-bold text-sm">Video 10%</span>
+                  <span className="text-indicator before:bg-yellow-500 relative font-bold text-sm">Other 30%</span>
                 </div>
               </div>
               {/* Progress */}
@@ -55,7 +55,7 @@ function Skills(){
               </div>
             </div>
           </div>
-          <div className="bg-gradient-to-t from-transparent via-zinc-500 to-zinc-900 rounded-md p-px">
+          <div className="bg-gradient-to-t from-transparent via-zinc-500 to-zinc-900 rounded-md p-0.5">
             <div className="p-5 bg-neutral-950 rounded-md">
               {/* skills header */}
               <div className="mb-6" >
@@ -69,13 +69,13 @@ function Skills(){
                 <h5>Most Used Languages</h5>
                 <div className="flex items-center relative w-full overflow-hidden h-2.5 rounded-md">
                   <span className="w-2/5 bg-orange-500 h-2.5"></span>
-                  <span className="w-2/5 bg-blue-500 h-2.5"></span>
-                  <span className="w-2/5 bg-lime-500 h-2.5"></span>
+                  <span className="w-3/5 bg-blue-500 h-2.5"></span>
+                  <span className="w-2/5 bg-yellow-500 h-2.5"></span>
                 </div>
                 <div className="flex items-center justify-between mb-5">
-                  <span className="relative font-bold text-sm">HTML</span>
-                  <span className="relative font-bold text-sm">CSS</span>
-                  <span className="relative font-bold text-sm">JS</span>
+                  <span className="text-indicator relative before:bg-orange-500 font-bold text-sm">HTML 20%</span>
+                  <span className="text-indicator relative before:bg-blue-500 font-bold text-sm">CSS 60%</span>
+                  <span className="text-indicator relative before:bg-yellow-500 font-bold text-sm">JavaScript 20%</span>
                 </div>
               </div>
               {/* Progress */}

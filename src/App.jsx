@@ -18,8 +18,8 @@ function App() {
       <Hero />
       <Aboutme />
       <Skills/>
-      <Projects/>
       <Offering/>
+      <Projects/>
       <Contact/>
     </div>
   )
