@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import smile from '../assets/smile.svg';
+import js from '../assets/js.svg';
+import dot from '../assets/triple-dot.svg';
 
 function Skills(){
   return (
@@ -11,8 +13,8 @@ function Skills(){
           <div className="bg-gradient-to-l from-violet-500 to-fuchsia-500 rounded-md p-px">
             <div className="p-5 bg-neutral-900 rounded-md">
               {/* skills header */}
-              <div className="mb-2" >
-                <img className="mb-4 w-14" src={smile} alt=""/>
+              <div className="mb-4" >
+                <img className="w-14" src={smile} alt=""/>
                 <h3 className="text-3xl font-bold">Web / SEO</h3>
                 <p>I am a web designer with experience in creating landing pages using HTML, CSS, and JavaScript.</p>
               </div>
@@ -32,6 +34,22 @@ function Skills(){
                 </div>
               </div>
               {/* Progress */}
+              <div>
+                <h5 className="font-bold">Skills &amp; Tool's</h5>
+                <ul className="flex items-center flex-wrap mt-3 gap-2">
+                  <li className="py-1 px-3 bg-zinc-700 rounded">On-Page SEO</li>
+                  <li className="py-1 px-3 bg-zinc-700 rounded">Off-Page SEO</li>
+                  <li className="py-1 px-3 bg-zinc-700 rounded">Landing Page Creation</li>
+                  <li className="py-1 px-3 bg-zinc-700 rounded">Yoast</li>
+                  <li className="py-1 px-3 bg-zinc-700 rounded">SEMRush</li>
+                  <li className="py-1 px-3 bg-zinc-700 rounded">Search Console</li>
+                  <li className="py-1 px-3 bg-zinc-700 rounded">Analytics</li>
+                  <img src={dot} alt=""/>
+                </ul>
+                <ul>
+                  <li><img src={js} alt=""/></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
