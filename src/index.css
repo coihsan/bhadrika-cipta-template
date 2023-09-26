@@ -29,7 +29,6 @@ body {
 }
 .text-color{
   background: linear-gradient(90deg, #fb923c, #4f46e5);
-  /* background: -webkit-linear-gradient(30deg, #642cfc, #78dff1, #adbe94); */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -48,11 +47,9 @@ body {
   border: 1px solid #fdba74;
   transition: 0.35s var(--transition-cubic-1);
   transform: scale(1);
-  box-shadow: 0px 6px 10px  #522500;
 }
 .callToAction:hover{
   transform: scale(0.95);
-  color: #ffffff;
 }
 .social-icon a{
   font-size: 1.3rem;
@@ -69,58 +66,36 @@ body {
 /* NAVBAR COMPONENTS*/
 .NavbarEl{
   width: 100%;
+  z-index: 100;
+  background-color: #121212;
+  border-bottom: 1px solid #313131;
 }
 .topNav{
   padding: 0 20px;
   margin: 0 auto;
+  max-width: 1100px;
 }
-.logo{
-  font-family: var(--fs-family-chakra);
-  color: #ffffff;
-  font-size: 2rem;
-  opacity: 0;
-}
-.navmenu{
-  background-color: #121212;
-  transform: translateY(-100%);
-  transition: 0.35s var(--transition-cubic-1);
-  opacity: 0;
-  z-index: -2;
-  border: 1px solid #313131;
-  border-radius: 10px;
-  min-width: 300px;
-  padding: 1rem;
-}
-.navmenu.active{
-  transform: translate(0);
-  opacity: 1;
-}
-.navmenu .navlink{
-  padding: 1rem;
+
+.navlink{
+  padding: 10px 1rem;
   transition: all 0.15s ease-in-out;
   font-size: 1.2rem;
 }
-.navmenu .navlink:hover{
+.navlink:hover{
   background-color: #292929;
-  border-radius: 10px;
-  padding-left: 2rem;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-top: 2rem;
   color: #ffffff;
 }
 
-#menu-toggle{
-  width: 35px;
-  height: 35px;
-  cursor: pointer;
-  background-color: #313131;
-  border-radius: 5px;
-  font-size: 1.2rem;
-  vertical-align: baseline;
-}
 .NavbarEl .topNav .navmenu > .social-icon{
   border-top: 1px solid #313131;
   padding-top: 1rem;
 }
-
+.mobile-menu{
+  display: none;
+}
 /* HERO COMPONENTS */
 .hero-section{
   height: 100vh;
@@ -188,8 +163,42 @@ body {
   background-color: #48fd00;
   box-shadow: 0px 0px 12px 1px #03a72c;
 }
-
+@media screen and (max-width: 1040px){
+  .NavbarEl{
+    display: none;
+  }
+  .mobile-menu{
+    display: block;
+    width: 100%;
+    z-index: 100;
+    background-color: #121212;
+  }
+  .navmenu{
+    transition: 0.35s var(--transition-cubic-1);
+    transform: translateY(-150%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100%;
+    background-color: #121212;
+    border-bottom: 1px solid #313131;
+  }
+  .navmenu.active{
+    transform: translate(0);
+    opacity: 1;
+  }
+  #menu-toggle{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #313131;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    vertical-align: baseline;
+    z-index: 111;
+  }
+}
 @media screen and (max-width: 600px){
+  
   .Hello{
     font-size: 2.5rem;
   }
