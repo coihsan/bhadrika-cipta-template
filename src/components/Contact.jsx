@@ -5,7 +5,7 @@ function Contact(){
     <div className="section m-auto">
      <div className="container">
      
-     <h1 className="text-4xl mb-8 font-bold">Contact</h1>
+     <h1 className="text-5xl mb-8 font-bold">Contact</h1>
      </div>
       </div>
   )
