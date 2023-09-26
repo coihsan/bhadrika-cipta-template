@@ -13,7 +13,7 @@ function Skills(){
           <div className="bg-gradient-to-l from-violet-500 to-fuchsia-500 rounded-md p-px">
             <div className="p-5 bg-neutral-900 rounded-md">
               {/* skills header */}
-              <div className="mb-4" >
+              <div className="mb-6" >
                 <img className="w-14" src={smile} alt=""/>
                 <h3 className="text-3xl font-bold">Web / SEO</h3>
                 <p>I am a web designer with experience in creating landing pages using HTML, CSS, and JavaScript.</p>
