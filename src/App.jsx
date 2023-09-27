@@ -6,14 +6,14 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Offering from "./components/Offering";
 import Contact from "./components/Contact";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 import './App.css';
 
 function App() {
   const [count, setCount] = useState(0);
   return (
-    <div className="App overflow-hidden">
+    <div className="App">
       <Navbar/>
       <Hero />
       <Aboutme />

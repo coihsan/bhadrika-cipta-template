@@ -1,6 +1,13 @@
 import { useState } from 'react'
 import smile from '../assets/smile.svg';
 import js from '../assets/js.svg';
+import html from '../assets/html.svg';
+import css from '../assets/css.svg';
+import react from '../assets/react.svg';
+import vite from '../assets/vite.svg';
+import photoshop from '../assets/photoshop.svg';
+import illustrator from '../assets/illustrator.svg';
+import AE from '../assets/after-effects.svg';
 import dot from '../assets/triple-dot.svg';
 
 function Skills(){
@@ -9,7 +16,7 @@ function Skills(){
       <div className="container">
       <h1 className="text-5xl mb-8 font-bold">Skills</h1>
       {/* content */}
-      <div className="flex items-center gap-3">
+      <div className="grid grid-cols-2 md:grid-cols-2 gap-3">
           <div className="bg-gradient-to-t from-transparent via-zinc-500 to-zinc-900 rounded-md p-0.5">
             <div className="p-5 bg-neutral-950 rounded-md">
               {/* skills header */}
@@ -46,10 +53,10 @@ function Skills(){
                   <li className="py-1 px-3 bg-zinc-800 rounded">PPC</li>
                   <img src={dot} alt=""/>
                 </ul>
-                <div className="mt-4 flex flex-wrap">
-                  <img className="w-12" src={js} alt=""/>
-                  <img className="w-12" src={js} alt=""/>
-                  <img className="w-12" src={js} alt=""/>
+                <div className="mt-4 flex flex-wrap gap-3">
+                  <img className="w-12" src={photoshop} alt=""/>
+                  <img className="w-12" src={illustrator} alt=""/>
+                  <img className="w-12" src={AE} alt=""/>
                   <img className="w-12" src={js} alt=""/>
                 </div>
               </div>
@@ -91,11 +98,12 @@ function Skills(){
                   <li className="py-1 px-3 bg-zinc-800 rounded">Analytics</li>
                   <img src={dot} alt=""/>
                 </ul>
-                <div className="mt-4 flex flex-wrap">
+                <div className="mt-4 flex flex-wrap gap-3">
                   <img className="w-12" src={js} alt=""/>
-                  <img className="w-12" src={js} alt=""/>
-                  <img className="w-12" src={js} alt=""/>
-                  <img className="w-12" src={js} alt=""/>
+                  <img className="w-11" src={css} alt=""/>
+                  <img className="w-11" src={html} alt=""/>
+                  <img className="w-12" src={react} alt=""/>
+                  <img className="w-12" src={vite} alt=""/>
                 </div>
               </div>
             </div>

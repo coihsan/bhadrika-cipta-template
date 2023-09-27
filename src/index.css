@@ -86,7 +86,7 @@ body {
 .topNav{
   padding: 0 20px;
   margin: 0 auto;
-  max-width: 1100px;
+  /* max-width: 1100px; */
 }
 
 .navlink{
@@ -128,7 +128,7 @@ body {
 }
 
 .line-separator-hero{
-  width: 100%;
+  
   border: 1px dotted #7e7e7e;
   position: relative;
   margin: 130px 0;
@@ -173,28 +173,31 @@ body {
   background-color: #48fd00;
   box-shadow: 0px 0px 12px 1px #03a72c;
 }
-@media screen and (max-width: 1040px){
-  .NavbarEl{
+@media screen and (max-width: 1024px){
+  .section{
+    width: 100%;
+  }
+  .menu-dekstop{
     display: none;
   }
   .mobile-menu{
-    display: block;
-    width: 100%;
+    display: grid;
     z-index: 100;
     background-color: #121212;
   }
   .navmenu{
     transition: 0.35s var(--transition-cubic-1);
-    transform: translateY(-150%);
+    display: none;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    width: 100%;
+    /* width: 100%; */
     background-color: #121212;
     border-bottom: 1px solid #313131;
   }
   .navmenu.active{
     transform: translate(0);
     opacity: 1;
+    display: flex;
   }
   #menu-toggle{
     width: 35px;

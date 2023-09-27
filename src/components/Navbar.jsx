@@ -23,7 +23,7 @@ import Skills from './Skills';
               </div>
               <span>Available for freelance</span>
             </div>
-            <div className={`flex flex-initial absolute top-2 right-40  navmenu-dekstop ${isActive ? "active" : ""}`}>
+            <div className={`flex menu-dekstop ${isActive ? "active" : ""}`}>
               <a className="navlink" href="#">Home</a>
               <a className="navlink" href={'./Aboutme'}>Aboutme</a>
               <a className="navlink" href="#Skills">Skills</a>
@@ -34,8 +34,8 @@ import Skills from './Skills';
             </div>
           </div>
     </nav>
-        <div className="mobile-menu fixed w-full flex items-center p-2">
-        <div className={`absolute flex flex-col justify-center navmenu  ${isActive ? "active" : ""}`}>
+        <div className="mobile-menu w-full fixed flex items-center p-2">
+        <div className={`absolute  top-1 left-0 flex flex-col justify-center navmenu  ${isActive ? "active" : ""}`}>
           <a className="navlink" href="#">Home</a>
           <a className="navlink" href={'./Aboutme'}>Aboutme</a>
           <a className="navlink" href="#Skills">Skills</a>
@@ -51,7 +51,7 @@ import Skills from './Skills';
               <a href="#"><i class="fa-brands fa-codepen"></i></a>
           </div>
         </div>
-            <div className="navbar-right container flex items-center justify-end gap-3">
+            <div className="absolute top-3 right-2 flex items-center justify-end gap-3">
               <button className="flex items-center gap-1"><img src={cardID} alt=""/> My Card</button>
               <button id="menu-toggle" className={'menu-toggle flex items-center justify-center ${isActive ? "active : "}'} onClick={handleClick}><i class="fa-solid fa-bars"></i></button>
         </div>
