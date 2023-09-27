@@ -16,7 +16,7 @@ function Skills(){
       <div className="container">
       <h1 className="text-5xl mb-8 font-bold">Skills</h1>
       {/* content */}
-      <div className="grid grid-cols-2 md:grid-cols-2 gap-3">
+      <div className="grid skills-card gap-3">
           <div className="bg-gradient-to-t from-transparent via-zinc-500 to-zinc-900 rounded-md p-0.5">
             <div className="p-5 bg-neutral-950 rounded-md">
               {/* skills header */}
