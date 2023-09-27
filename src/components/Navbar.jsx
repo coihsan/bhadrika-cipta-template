@@ -36,13 +36,6 @@ import Skills from './Skills';
           <a className="navlink" href="#">Home</a>
           <a className="navlink" href="#">Projects</a>
           <a className="navlink" href="#">Blog</a>
-          <div className="social-icon flex items-center gap-2 justify-center">
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-              <a href="#"><i class="fa-brands fa-github"></i></a>
-              <a href="#"><i class="fa-brands fa-codepen"></i></a>
-          </div>
         </div>
             <div className="absolute top-3 right-2 flex items-center justify-end gap-3">
               <button className="flex items-center gap-1"><img src={cardID} alt=""/> My Card</button>

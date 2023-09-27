@@ -43,8 +43,8 @@ body {
   padding: 10px 1.5rem;
   color: #ffffff;
   border-radius: 50px;
-  background: linear-gradient(90deg, #fb923c, #4f46e5);
-  border: 1px solid #eab308;
+  background: linear-gradient(90deg, #f97316, #4f46e5);
+  border: 1px solid #f97316;
   transition: 0.35s var(--transition-cubic-1);
   transform: scale(1);
 }
@@ -133,7 +133,7 @@ body {
   margin: 130px 0;
 }
 .line-separator-hero{
-  border: 1px dotted #7e7e7e;
+  border: 1px dotted #52525b;
   position: relative;
 }
 .line-separator-hero::after, .line-separator-hero::before{

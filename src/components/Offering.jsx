@@ -10,8 +10,8 @@ function Offering(){
       <div className="container">
         <h1 className="text-5xl mb-8 font-bold">Offering</h1>
         <div className="overflow-hidden w-full">
-        <div className="overflow-scroll scroll-smooth card-offering-wrapper">
-        <div className="flex gap-5 w-full py-10">
+        <div className=" card-offering-wrapper">
+        <div className="grid grid-cols-2 max-[600px]:grid-cols-1 gap-5 w-full">
           <a href="/landing-pages-services.jsx" className="shrink-0 basis-96 relative w-full border border-zinc-700 bg-gradient-to-tl from-zinc-900 to-zinc-950 p-10 rounded-md hover:border-zinc-200 transition-colors">
             <div className="p-0.5 bg-gradient-to-br from-amber-500 via-fuchsia-500 to-indigo-800 rounded-md mb-4 w-max">
             <img className="text-2xl py-3 px-3 flex font-bold bg-zinc-950 rounded-md" src={laptop} alt=""/>

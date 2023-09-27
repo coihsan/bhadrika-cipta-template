@@ -15,16 +15,20 @@ function Skills(){
   return (
     <div className="section m-auto" id="Skills">
       <div className="container">
-      <h1 className="text-5xl mb-8 font-bold">Skills</h1>
+      <div className="flex items-center gap-5 mb-8">
+        <span className="w-full h-0.5 bg-gradient-to-l from-zinc-500 to-zinc-950 "></span>
+        <h1 className="text-5xl text-center font-bold">Skills</h1>
+        <span className="w-full h-0.5 bg-gradient-to-r from-indigo-500 to-zinc-950"></span>
+      </div>
       {/* content */}
       <div className="grid skills-card gap-3">
-          <div className="bg-gradient-to-t from-transparent via-zinc-500 to-zinc-900 rounded-md p-0.5">
-            <div className="p-5 bg-neutral-950 rounded-md">
+          <div className="bg-gradient-to-t from-zinc-900 via-zinc-500 to-zinc-900 rounded-md p-0.5">
+            <div className="p-10 max-[600px]:p-5 bg-zinc-950 rounded-md">
               {/* skills header */}
               <div className="mb-6" >
-                <img className="w-14" src={smile} alt=""/>
-                <h3 className="text-3xl font-bold">Digital {'{Marketing}'}</h3>
-                <p>I am a web designer with experience in creating landing pages using HTML, CSS, and JavaScript.</p>
+                <img className="w-20 mb-5 m-auto" src={smile} alt=""/>
+                <h3 className="text-3xl font-bold text-center">Digital {'{Marketing}'}</h3>
+                <p className="text-center">I am a web designer with experience in creating landing pages using HTML, CSS, and JavaScript.</p>
               </div>
               {/* skills header */}
               {/* Progress */}
@@ -58,18 +62,17 @@ function Skills(){
                   <img className="w-12" src={photoshop} alt=""/>
                   <img className="w-12" src={illustrator} alt=""/>
                   <img className="w-12" src={AE} alt=""/>
-                  <img className="w-12" src={js} alt=""/>
                 </div>
               </div>
             </div>
           </div>
-          <div className="bg-gradient-to-t from-transparent via-zinc-500 to-zinc-900 rounded-md p-0.5">
-            <div className="p-5 bg-neutral-950 rounded-md">
+          <div className="bg-gradient-to-t from-zinc-900 via-indigo-500 to-zinc-900 rounded-md p-0.5">
+            <div className="p-10 max-[600px]:p-5 bg-zinc-950 rounded-md">
               {/* skills header */}
               <div className="mb-6" >
-                <img className="w-14" src={webdev} alt=""/>
-                <h3 className="text-3xl font-bold">Web / SEO</h3>
-                <p>I am a web designer with experience in creating landing pages using HTML, CSS, and JavaScript.</p>
+                <img className="w-20 mb-5 m-auto" src={webdev} alt=""/>
+                <h3 className="text-3xl font-bold text-center">Web / SEO</h3>
+                <p className="text-center">I am a web designer with experience in creating landing pages using HTML, CSS, and JavaScript.</p>
               </div>
               {/* skills header */}
               {/* Progress */}
@@ -92,17 +95,17 @@ function Skills(){
                 <ul className="flex items-center flex-wrap mt-3 gap-2">
                   <li className="py-1 px-3 bg-zinc-800 rounded">On-Page SEO</li>
                   <li className="py-1 px-3 bg-zinc-800 rounded">Off-Page SEO</li>
-                  <li className="py-1 px-3 bg-zinc-800 rounded">Landing Page Creation</li>
                   <li className="py-1 px-3 bg-zinc-800 rounded">Yoast</li>
                   <li className="py-1 px-3 bg-zinc-800 rounded">SEMRush</li>
+                  <li className="py-1 px-3 bg-zinc-800 rounded">Landing Page Creation</li>
                   <li className="py-1 px-3 bg-zinc-800 rounded">Search Console</li>
-                  <li className="py-1 px-3 bg-zinc-800 rounded">Analytics</li>
+                  <li className="py-1 px-3 bg-zinc-800 rounded">Google Analytics</li>
                   <img src={dot} alt=""/>
                 </ul>
                 <div className="mt-4 flex flex-wrap gap-3">
                   <img className="w-12" src={js} alt=""/>
-                  <img className="w-11" src={css} alt=""/>
-                  <img className="w-11" src={html} alt=""/>
+                  <img className="w-10" src={css} alt=""/>
+                  <img className="w-10" src={html} alt=""/>
                   <img className="w-12" src={react} alt=""/>
                   <img className="w-12" src={vite} alt=""/>
                 </div>
