@@ -25,24 +25,17 @@ import Skills from './Skills';
             </div>
             <div className={`flex menu-dekstop ${isActive ? "active" : ""}`}>
               <a className="navlink" href="#">Home</a>
-              <a className="navlink" href={'./Aboutme'}>Aboutme</a>
-              <a className="navlink" href="#Skills">Skills</a>
-              <a className="navlink" href="#">Offering</a>
               <a className="navlink" href="#">Projects</a>
               <a className="navlink" href="#">Blog</a>
-              <a className="navlink" href="#">Contact</a>
+              <a className="navlink" href="#">Let's Talk!</a>
             </div>
           </div>
     </nav>
         <div className="mobile-menu w-full fixed flex items-center p-2">
         <div className={`absolute  top-1 left-0 flex flex-col justify-center navmenu  ${isActive ? "active" : ""}`}>
           <a className="navlink" href="#">Home</a>
-          <a className="navlink" href={'./Aboutme'}>Aboutme</a>
-          <a className="navlink" href="#Skills">Skills</a>
-          <a className="navlink" href="#">Offering</a>
           <a className="navlink" href="#">Projects</a>
           <a className="navlink" href="#">Blog</a>
-          <a className="navlink" href="#">Contact</a>
           <div className="social-icon flex items-center gap-2 justify-center">
               <a href="#"><i class="fa-brands fa-instagram"></i></a>
               <a href="#"><i class="fa-brands fa-x-twitter"></i></a>

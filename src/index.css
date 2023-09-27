@@ -126,12 +126,12 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
+.mb-separator{
+  margin: 130px 0;
+}
 .line-separator-hero{
-  
   border: 1px dotted #7e7e7e;
   position: relative;
-  margin: 130px 0;
 }
 .line-separator-hero::after, .line-separator-hero::before{
   position: absolute;

@@ -6,7 +6,7 @@ function Projects(){
     <div className="section">
       <div className="container">
       <h1 className="text-5xl mb-8 font-bold">Projects</h1>
-      <div className="line-separator-hero">
+      <div className="line-separator-hero mb-separator">
           <span></span>
         </div>
       </div>

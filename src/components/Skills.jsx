@@ -109,7 +109,7 @@ function Skills(){
             </div>
           </div>
         </div>
-        <div className="line-separator-hero">
+        <div className="line-separator-hero mb-separator">
             <span></span>
         </div>
       </div>
