@@ -13,7 +13,7 @@ import dot from '../assets/triple-dot.svg';
 
 function Skills(){
   return (
-    <div className="section m-auto" id="Skills">
+    <div className="section m-auto max-[600px]:w-full" id="Skills">
       <div className="container">
       <div className="flex items-center gap-5 mb-8">
         <span className="w-full h-0.5 bg-gradient-to-l from-zinc-500 to-zinc-950 "></span>
@@ -21,7 +21,7 @@ function Skills(){
         <span className="w-full h-0.5 bg-gradient-to-r from-indigo-500 to-zinc-950"></span>
       </div>
       {/* content */}
-      <div className="grid skills-card gap-3">
+      <div className="grid skills-card gap-3 max-[768px]:grid-cols-1">
           <div className="bg-gradient-to-t from-zinc-900 via-zinc-500 to-zinc-900 rounded-md p-0.5">
             <div className="p-10 max-[600px]:p-5 bg-zinc-950 rounded-md">
               {/* skills header */}
@@ -114,10 +114,8 @@ function Skills(){
             </div>
           </div>
         </div>
-        <div className="line-separator-hero mb-separator">
-            <span></span>
-        </div>
       </div>
+      <div className="mb-separator w-full h-px bg-zinc-800"></div>
     </div>
   )
 }

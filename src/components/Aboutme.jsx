@@ -20,8 +20,8 @@ function Aboutme(){
         
         </div>
         </div>
-        <div className="mb-separator"></div>
       </div>
+      <div className="mb-separator w-full h-px bg-zinc-800"></div>
     </div>
   )
 }

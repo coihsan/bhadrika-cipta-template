@@ -9,8 +9,8 @@ function Hero(){
     <div className="hero-section section flex items-center w-full">
       <div className="hero-container container flex flex-col justify-center">
         <img className="sunglasses" src={sunglasses} alt="sunflasses" />
-        <p className="Hello">Hi there, I'm <span className="text-color">Ihsan </span>👋🏻</p>
-        <p className="Hello">Digital Marketing <span className="text-color">&amp; {'{Front-End Dev}'}</span></p>
+        <p className="Hello max-[470px]:text-4xl">Hi there, I'm <span className="text-color">Ihsan </span>👋🏻</p>
+        <p className="Hello max-[470px]:text-4xl">Digital Marketing <span className="text-color">&amp; {'{Front-End Dev}'}</span></p>
         
         <div className="certificate flex items-center gap-5 justify-center mx-auto mt-5 py-2">
           <h4 className="text-xl">Credentials :</h4>
