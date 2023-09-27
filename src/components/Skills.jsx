@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import smile from '../assets/smile.svg';
+import webdev from '../assets/webdev.svg';
 import js from '../assets/js.svg';
 import html from '../assets/html.svg';
 import css from '../assets/css.svg';
@@ -66,7 +67,7 @@ function Skills(){
             <div className="p-5 bg-neutral-950 rounded-md">
               {/* skills header */}
               <div className="mb-6" >
-                <img className="w-14" src={smile} alt=""/>
+                <img className="w-14" src={webdev} alt=""/>
                 <h3 className="text-3xl font-bold">Web / SEO</h3>
                 <p>I am a web designer with experience in creating landing pages using HTML, CSS, and JavaScript.</p>
               </div>
