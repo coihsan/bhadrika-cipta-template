@@ -76,6 +76,9 @@ body {
   width: 10px;
   height: 10px;
 }
+.card-offering-wrapper::-webkit-scrollbar{
+  display: none;
+}
 /* NAVBAR COMPONENTS*/
 .NavbarEl{
   width: 100%;
