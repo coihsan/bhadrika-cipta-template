@@ -44,7 +44,7 @@ body {
   color: #ffffff;
   border-radius: 50px;
   background: linear-gradient(90deg, #fb923c, #4f46e5);
-  border: 1px solid #e0e7ff;
+  border: 1px solid #eab308;
   transition: 0.35s var(--transition-cubic-1);
   transform: scale(1);
 }
