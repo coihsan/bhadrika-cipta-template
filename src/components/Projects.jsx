@@ -6,7 +6,10 @@ function Projects(){
   return (
     <div className="section">
       <div className="container">
-      <h1 className="text-5xl mb-8 font-bold">Projects</h1>
+        <div className="mb-8 flex items-end justify-between">
+          <h1 className="text-5xl font-bold">Projects</h1>
+          <a href="#">Index</a>
+        </div>
         <div className="grid grid-cols-2 gap-5 max-[600px]:grid-cols-1">
           {/* content 1 */}
           <div className="relative rounded-md overflow-hidden">

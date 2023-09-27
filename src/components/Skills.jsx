@@ -27,13 +27,13 @@ function Skills(){
               {/* skills header */}
               <div className="mb-6" >
                 <img className="w-20 mb-5 m-auto" src={smile} alt=""/>
-                <h3 className="text-3xl font-bold text-center">Digital {'{Marketing}'}</h3>
+                <h3 className="text-3xl font-bold text-center mb-3">Digital {'{Marketing}'}</h3>
                 <p className="text-center">I am a web designer with experience in creating landing pages using HTML, CSS, and JavaScript.</p>
               </div>
               {/* skills header */}
               {/* Progress */}
               <div className="grid gap-3">
-                <h5>Common Job</h5>
+                <h5 className="font-bold text-lg">Common Job</h5>
                 <div className="flex items-center relative w-full overflow-hidden h-2.5 rounded-md">
                   <span className="w-3/5 bg-orange-500 h-2.5"></span>
                   <span className="w-1/5 bg-blue-500 h-2.5"></span>
@@ -47,15 +47,16 @@ function Skills(){
               </div>
               {/* Progress */}
               <div>
-                <h5 className="font-bold">Skills &amp; Tool's</h5>
-                <ul className="flex items-center flex-wrap mt-3 gap-2">
-                  <li className="py-1 px-3 bg-zinc-800 rounded">Google Ads</li>
-                  <li className="py-1 px-3 bg-zinc-800 rounded">Meta Ads</li>
-                  <li className="py-1 px-3 bg-zinc-800 rounded">Social Media Content</li>
-                  <li className="py-1 px-3 bg-zinc-800 rounded">Event</li>
-                  <li className="py-1 px-3 bg-zinc-800 rounded">E-Commerce / Marketplace</li>
-                  <li className="py-1 px-3 bg-zinc-800 rounded">Copywriting</li>
-                  <li className="py-1 px-3 bg-zinc-800 rounded">PPC</li>
+                <h5 className="font-bold text-lg">Skills &amp; Tool's</h5>
+                <ul className=" flex items-center flex-wrap mt-3 gap-2">
+                  <li className="text-sm py-1 px-3 bg-zinc-800 rounded">Google Ads</li>
+                  <li className="text-sm py-1 px-3 bg-zinc-800 rounded">Meta Ads</li>
+                  <li className="text-sm py-1 px-3 bg-zinc-800 rounded">Social Media Content</li>
+                  <li className="text-sm py-1 px-3 bg-zinc-800 rounded">Event</li>
+                  <li className="text-sm py-1 px-3 bg-zinc-800 rounded">E-Commerce / Marketplace</li>
+                  <li className="text-sm py-1 px-3 bg-zinc-800 rounded">Copywriting</li>
+                  <li className="text-sm py-1 px-3 bg-zinc-800 rounded">Pay-Per-Click</li>
+                  <li className="text-sm py-1 px-3 bg-zinc-800 rounded">Video Creation</li>
                   <img src={dot} alt=""/>
                 </ul>
                 <div className="mt-4 flex flex-wrap gap-3">
@@ -71,13 +72,13 @@ function Skills(){
               {/* skills header */}
               <div className="mb-6" >
                 <img className="w-20 mb-5 m-auto" src={webdev} alt=""/>
-                <h3 className="text-3xl font-bold text-center">Web / SEO</h3>
+                <h3 className="text-3xl font-bold text-center mb-3">Web / SEO</h3>
                 <p className="text-center">I am a web designer with experience in creating landing pages using HTML, CSS, and JavaScript.</p>
               </div>
               {/* skills header */}
               {/* Progress */}
               <div className="grid gap-3">
-                <h5>Most Used Languages</h5>
+                <h5 className="font-bold text-lg">Most Used Languages</h5>
                 <div className="flex items-center relative w-full overflow-hidden h-2.5 rounded-md">
                   <span className="w-2/5 bg-orange-500 h-2.5"></span>
                   <span className="w-3/5 bg-blue-500 h-2.5"></span>
@@ -91,15 +92,15 @@ function Skills(){
               </div>
               {/* Progress */}
               <div>
-                <h5 className="font-bold">Skills &amp; Tool's</h5>
+                <h5 className="font-bold text-lg">Skills &amp; Tool's</h5>
                 <ul className="flex items-center flex-wrap mt-3 gap-2">
-                  <li className="py-1 px-3 bg-zinc-800 rounded">On-Page SEO</li>
-                  <li className="py-1 px-3 bg-zinc-800 rounded">Off-Page SEO</li>
-                  <li className="py-1 px-3 bg-zinc-800 rounded">Yoast</li>
-                  <li className="py-1 px-3 bg-zinc-800 rounded">SEMRush</li>
-                  <li className="py-1 px-3 bg-zinc-800 rounded">Landing Page Creation</li>
-                  <li className="py-1 px-3 bg-zinc-800 rounded">Search Console</li>
-                  <li className="py-1 px-3 bg-zinc-800 rounded">Google Analytics</li>
+                  <li className="text-sm py-1 px-3 bg-zinc-800 rounded">On-Page SEO</li>
+                  <li className="text-sm py-1 px-3 bg-zinc-800 rounded">Off-Page SEO</li>
+                  <li className="text-sm py-1 px-3 bg-zinc-800 rounded">Yoast</li>
+                  <li className="text-sm py-1 px-3 bg-zinc-800 rounded">SEMRush</li>
+                  <li className="text-sm py-1 px-3 bg-zinc-800 rounded">Landing Page Creation</li>
+                  <li className="text-sm py-1 px-3 bg-zinc-800 rounded">Search Console</li>
+                  <li className="text-sm py-1 px-3 bg-zinc-800 rounded">Google Analytics</li>
                   <img src={dot} alt=""/>
                 </ul>
                 <div className="mt-4 flex flex-wrap gap-3">

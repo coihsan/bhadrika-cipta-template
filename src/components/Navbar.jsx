@@ -24,24 +24,10 @@ import Skills from './Skills';
               <span>Available for freelance</span>
             </div>
             <div className={`flex menu-dekstop ${isActive ? "active" : ""}`}>
-              <a className="navlink" href="#">Home</a>
-              <a className="navlink" href="#">Projects</a>
-              <a className="navlink" href="#">Blog</a>
               <a className="navlink" href="#">Let's Talk!</a>
             </div>
           </div>
     </nav>
-        <div className="mobile-menu w-full fixed flex items-center p-2">
-        <div className={`absolute  top-1 left-0 flex flex-col justify-center navmenu  ${isActive ? "active" : ""}`}>
-          <a className="navlink" href="#">Home</a>
-          <a className="navlink" href="#">Projects</a>
-          <a className="navlink" href="#">Blog</a>
-        </div>
-            <div className="absolute top-3 right-2 flex items-center justify-end gap-3">
-              <button className="flex items-center gap-1"><img src={cardID} alt=""/> My Card</button>
-              <button id="menu-toggle" className={'menu-toggle flex items-center justify-center ${isActive ? "active : "}'} onClick={handleClick}><i class="fa-solid fa-bars"></i></button>
-        </div>
-      </div>
       </section>
     )
   }

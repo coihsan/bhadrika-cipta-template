@@ -92,23 +92,7 @@ body {
   /* max-width: 1100px; */
 }
 
-.navlink{
-  padding: 10px 1rem;
-  border-radius: 10px;
-  font-size: 1.2rem;
-}
-.navlink:hover{
-  background-color: #292929;
-  color: #ffffff;
-}
 
-.NavbarEl .topNav .navmenu > .social-icon{
-  border-top: 1px solid #313131;
-  padding-top: 1rem;
-}
-.mobile-menu{
-  display: none;
-}
 /* HERO COMPONENTS */
 .hero-section{
   height: 100vh;
@@ -182,14 +166,6 @@ body {
 @media screen and (max-width: 1029px){
   .section{
     width: 100%;
-  }
-  .menu-dekstop{
-    display: none;
-  }
-  .mobile-menu{
-    display: grid;
-    z-index: 100;
-    background-color: #121212;
   }
   .navmenu{
     transition: 0.35s var(--transition-cubic-1);
