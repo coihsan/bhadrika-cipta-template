@@ -5,9 +5,9 @@ function Aboutme(){
   return(
     <div className="section m-auto">
         <div className="container">
-        <div className="flex items-center gap-10 max-[600px]:flex-wrap">
-        <div>
-        <img className="mx-auto w-96 max-[600px]:w-52 rounded-full" src={'https://coihsan.github.io/profile/assets/avatar.webp'} alt="" />
+        <div className="flex items-center gap-10 w-10/12 m-auto max-[600px]:flex-wrap">
+        <div className="max-[600px]:justify-center">
+        <img className="mx-auto w-11/12 max-[600px]:w-56 rounded-full" src={'https://coihsan.github.io/profile/assets/avatar.webp'} alt="" />
         <div className="line-separator-hero">
             <span></span>
         </div>
