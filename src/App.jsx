@@ -7,13 +7,12 @@ import Projects from "./components/Projects";
 import Offering from "./components/Offering";
 import Contact from "./components/Contact";
 import { motion } from "framer-motion";
-import chevron from "/chevron-top.svg";
 import './App.css';
 
 function App() {
   const [count, setCount] = useState(0);
   return (
-    <div className="App">
+    <div className="App relative">
       <Navbar/>
       <Hero />
       <Aboutme />
