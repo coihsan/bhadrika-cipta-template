@@ -4,11 +4,15 @@ import laptop from '../assets/laptop.svg';
 import ads from '../assets/ads.svg';
 import design from '../assets/design.svg';
 import search from '../assets/search.svg';
+import sparkless from '../assets/sparkless.svg';
 function Offering(){
   return (
     <div className="section m-auto max-[600px]:w-full">
       <div className="container">
-        <h1 className="text-5xl mb-8 font-bold">Offering</h1>
+        <div className="flex items-center gap-3 mb-8">
+          <img className="w-9" src={sparkless} alt=""/>
+          <h1 className="text-5xl font-bold">Offering</h1>
+        </div>
         <div className="overflow-hidden w-full">
         <div className=" card-offering-wrapper">
         <div className="grid grid-cols-2 max-[600px]:grid-cols-1 gap-3 w-full">
@@ -17,7 +21,7 @@ function Offering(){
             <img className="text-2xl py-3 px-3 flex font-bold bg-zinc-950 rounded-md" src={laptop} alt=""/>
             </div>
             <h1 className="text-3xl font-bold my-2">Custom Landing Page</h1>
-            <p>Create effective landing pages for your marketing campaigns, product launches, affiliate programs, and support A/B Testing.</p>
+            <p>Create effective landing pages for your business and support A/B Testing.</p>
             <a className="absolute bottom-5 right-5" href="#"><img src={arrow} alt=""/></a>
           </a>
           <a href="#" className="shrink-0 basis-96 relative w-full border border-zinc-700 p-10 rounded-md bg-gradient-to-tl from-zinc-900 to-zinc-950 hover:border-zinc-200 transition-colors ">

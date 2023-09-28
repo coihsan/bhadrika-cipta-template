@@ -8,7 +8,7 @@ function Hero(){
   return(
     <div className="hero-section section flex items-center w-full">
       <div className="hero-container container flex flex-col justify-center">
-        <img className="sunglasses" src={sunglasses} alt="sunflasses" />
+        {/* <img className="sunglasses" src={sunglasses} alt="sunflasses" /> */}
         <p className="Hello max-[470px]:text-4xl">Hi there, I'm <span className="text-color">Ihsan </span>👋🏻</p>
         <p className="Hello max-[470px]:text-4xl">Digital Marketing <span className="text-color">&amp; {'{Front-End Dev}'}</span></p>
         
@@ -20,9 +20,9 @@ function Hero(){
             <img className="link-icon w-5 " src={link}/>
           </div>
         </div>
-        <div className="mt-5 div-call-to-action flex align-center justify-center">
+        {/* <div className="mt-5 div-call-to-action flex align-center justify-center">
         <a className="callToAction flex gap-1" href="#"><img src={telegram} alt=""/> Start a Project</a>
-        </div>
+        </div> */}
       </div>
     </div>
   )

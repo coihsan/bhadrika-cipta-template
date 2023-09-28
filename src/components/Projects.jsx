@@ -1,13 +1,16 @@
 import { useState } from 'react'
 import preview from '../assets/preview.svg';
 import github from '../assets/github.svg';
-
+import sparkless from '../assets/sparkless.svg';
 function Projects(){
   return (
     <div className="section max-[600px]:w-full">
       <div className="container">
         <div className="mb-8 flex items-end justify-between">
+          <div className="flex items-center gap-3">
+          <img className="w-9" src={sparkless} alt=""/>
           <h1 className="text-5xl font-bold">Projects</h1>
+        </div>
           <a href="#">Index</a>
         </div>
         <div className="grid grid-cols-2 gap-3 max-[600px]:grid-cols-1">
