@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import React from "react";
 import cardID from '../assets/id-card.svg';
+import arrow from '../assets/arrow.svg';
 import Skills from './Skills';
 
   const Navbar = () =>{
@@ -23,7 +24,8 @@ import Skills from './Skills';
               </div>
               <span>Available for freelance</span>
             </div>
-            <div className={`flex menu-dekstop ${isActive ? "active" : ""}`}>
+            <div className="flex gap-2 menu-dekstop">
+              <img src={arrow} alt=""/>
               <a className="navlink" href="#">Let's Talk!</a>
             </div>
           </div>

@@ -1,8 +1,16 @@
 import { useState } from 'react';
 
+
 function LandingPageServices(){
+  const [count, setCount] = useState(0);
   return (
-    <div>Landing Page Services</div>
+    <section>
+      <Navbar/>
+      <div>
+        <h1>Landing Page Services</h1>
+      </div>
+      <Contact/>
+      </section>
   )
 }
 
