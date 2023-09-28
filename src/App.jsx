@@ -7,7 +7,7 @@ import Projects from "./components/Projects";
 import Offering from "./components/Offering";
 import Contact from "./components/Contact";
 import { motion } from "framer-motion";
-
+import chevron from "/chevron-top.svg";
 import './App.css';
 
 function App() {

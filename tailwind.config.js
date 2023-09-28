@@ -7,6 +7,9 @@ export default {
   
   theme: {
     extend: {
+      height: {
+        '258': '258px',
+      },
       transitionDuration: {
         '2000': '2000ms',
       }

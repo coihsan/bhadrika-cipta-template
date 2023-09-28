@@ -33,7 +33,7 @@ function Offering(){
             <img className="text-2xl py-3 px-3 flex font-bold bg-zinc-950 rounded-md" src={design} alt=""/>
             </div>
             <h1 className="text-3xl font-bold my-2">Social Media Content</h1>
-            <p>Create effective landing pages for your marketing campaigns, product launches, affiliate programs, and support A/B Testing.</p>
+            <p>Design images and video variants for your brand on social media, and also create Engagement Campaigns.</p>
             <a className="absolute bottom-5 right-5" href="#"><img src={arrow} alt=""/></a>
           </a>
           <a href="" className="shrink-0 basis-96 relative w-full border border-zinc-700 p-10 rounded-md bg-gradient-to-tl from-zinc-900 to-zinc-950 hover:border-zinc-200 transition-colors">
@@ -41,7 +41,7 @@ function Offering(){
             <img className="text-2xl py-3 px-3 flex font-bold bg-zinc-950 rounded-md" src={search} alt=""/>
             </div>
             <h1 className="text-3xl font-bold my-2">Search Engine Optimization</h1>
-            <p>Create effective landing pages for your marketing campaigns, product launches, affiliate programs, and support A/B Testing.</p>
+            <p>I will optimize your website for relevant keywords, code, structure and content appropriate to the ranking factors.</p>
             <a className="absolute bottom-5 right-5" href="#"><img src={arrow} alt=""/></a>
           </a>
         </div>
