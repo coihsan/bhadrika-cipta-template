@@ -16,7 +16,7 @@ function Aboutme(){
         <h1 className="text-5xl mb-8 font-bold">Short Bio</h1>
         <p>I'm always up to date on the latest algorithms, like those used in social media or Google, marketing techniques, as well as learning about new technologies and how they can be applied to my job.</p>
         <br/>
-        <div className="flex items-center"><p>See all my credential on <a className="accredible link-color" href="">Accredible </a></p> <img className="link-icon w-5" src={link} alt=""/></div>
+        <div className="flex items-center"><p>See all my credential on <a className="accredible link-color" target="_blank" href="https://www.credential.net/profile/muhammadihsan/wallet">Accredible </a></p> <img className="link-icon w-5" src={link} alt=""/></div>
         
         </div>
         </div>
