@@ -7,6 +7,7 @@ import css from '../assets/css.svg';
 import react from '../assets/react.svg';
 import vite from '../assets/vite.svg';
 import photoshop from '../assets/photoshop.svg';
+import astro from '../assets/astro.svg';
 import illustrator from '../assets/illustrator.svg';
 import AE from '../assets/after-effects.svg';
 import dot from '../assets/triple-dot.svg';
@@ -109,6 +110,7 @@ function Skills(){
                   <img className="w-10" src={html} alt=""/>
                   <img className="w-12" src={react} alt=""/>
                   <img className="w-12" src={vite} alt=""/>
+                  <img className="w-12" src={astro} alt=""/>
                 </div>
               </div>
             </div>
