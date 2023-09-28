@@ -25,7 +25,7 @@ function Offering(){
             <img className="text-2xl py-3 px-3 flex font-bold bg-zinc-950 rounded-md" src={ads} alt=""/>
             </div>
             <h1 className="text-3xl font-bold my-2">Google &amp; Social Media Ads</h1>
-            <p>Create effective landing pages for your marketing campaigns, product launches, affiliate programs, and support A/B Testing.</p>
+            <p>Reach a wider audience with targeted ads that are relevant to the target market with Google or Meta Ads.</p>
             <a className="absolute bottom-5 right-5" href="#"><img src={arrow} alt=""/></a>
           </a>
           <a href="#" className="shrink-0 basis-96 relative w-full border border-zinc-700 p-10 rounded-md bg-gradient-to-tl from-zinc-900 to-zinc-950 hover:border-zinc-200 transition-colors">
