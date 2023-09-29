@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import Skills2 from "./components/Skills-2";
 import Aboutme from "./components/Aboutme";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
@@ -17,7 +18,7 @@ function App() {
       <Navbar/>
       <Hero />
         <Aboutme />
-        <Skills/>
+        <Skills2/>
         <Offering/>
         <Projects/>
         <Contact/>
