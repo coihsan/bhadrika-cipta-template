@@ -117,7 +117,7 @@ body {
   margin: 130px 0;
 }
 .line-separator-hero{
-  border: 1px dotted #52525b;
+  border: 1px dotted #646464;
   position: relative;
 }
 .line-separator-hero::after, .line-separator-hero::before{
