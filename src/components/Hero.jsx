@@ -15,7 +15,7 @@ function Hero(){
         <div className="certificate flex items-center gap-5 justify-center mx-auto mt-5 py-2">
           <h4 className="text-xl">Credentials :</h4>
           <div className="skillshop flex items-center gap-1">
-            <img className="w-11" src={google}/>
+            <img className="w-10" src={google}/>
             <a className="link-certificate" target="_blank" href="https://skillshop.exceedlms.com/profiles/038b28dd54cb4f11bd4668684c05e95f">Skillshop</a>
             <img className="link-icon w-5 " src={link}/>
           </div>
