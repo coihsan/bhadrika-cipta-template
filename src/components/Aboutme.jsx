@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 
 function Aboutme(){
   return(
-    <div className="section m-auto">
+    <div className="section m-auto aboutme">
         <div className="container">
         <div className="flex items-center gap-10 w-10/12 m-auto max-[600px]:flex-wrap">
         <div className="max-[600px]:justify-center">
