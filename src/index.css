@@ -28,11 +28,11 @@ body {
   color: rgba(255, 255, 255, 0.87);
   font-family: 'Chakra Petch', sans-serif;
 }
-.text-color{
+/* .text-color{
   background: linear-gradient(90deg, #fb923c, #4f46e5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+} */
 
 .container{
   padding: 0 20px;
