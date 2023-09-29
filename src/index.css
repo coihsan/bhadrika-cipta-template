@@ -149,19 +149,34 @@ body {
 }
 .aboutme{
   background-image: url(./assets/grid.svg);
-  background-repeat: repeat-x;
-  background-size: auto;
+  background-repeat: repeat;
+  background-clip: content-box;
+  background-size: 20%;
   width: 100%;
   min-height: 400px;
-  margin: 130px 0;
+  /* margin: 130px 0; */
   position: relative;
+  z-index: 3;
 }
 .aboutme::before{
   position: absolute;
   content: "";
   top: 0;
   left: 0;
-
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(180deg, #09090b 0%, rgba(9, 9, 11, 0) 20%);
+  z-index: -1;
+}
+.aboutme::after{
+  position: absolute;
+  content: "";
+  bottom: 0px;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(0deg, rgb(9, 9, 11) 0%, rgba(9, 9, 11, 0) 70%);
+  z-index: 1;
 }
 .status-work{
   display: flex;
