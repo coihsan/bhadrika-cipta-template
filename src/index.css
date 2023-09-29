@@ -158,6 +158,7 @@ body {
   position: relative;
   z-index: 3;
 }
+
 .aboutme::before,
 .aboutme::after{
   position: absolute;
@@ -169,12 +170,13 @@ body {
 .aboutme::before{
   top: 0;
   left: 0;
-  background-image: linear-gradient(180deg, #09090b 0%, rgba(9, 9, 11, 0) 50%);
+  background-image: linear-gradient(180deg, #09090b 0%, rgba(255, 78, 211, 0.055) 40%);
+
 }
 .aboutme::after{
   bottom: 0px;
   right: 0;
-  background-image: linear-gradient(0deg, rgb(9, 9, 11) 0%, rgba(9, 9, 11, 0) 50%);
+  background-image: linear-gradient(0deg, rgb(9, 9, 11) 0%, rgba(125, 78, 255, 0.055) 190%);
 }
 .status-work{
   display: flex;
