@@ -16,7 +16,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <Router className="App relative">
+    <Router>
       <Navbar/>
       <Hero />
         <Aboutme />

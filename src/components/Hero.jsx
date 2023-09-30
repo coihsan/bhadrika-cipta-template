@@ -18,9 +18,6 @@ function Hero(){
             <i class="fa-solid fa-arrow-up-right-from-square text-zinc-400"></i>
           </div>
         </div>
-        {/* <div className="mt-5 div-call-to-action flex align-center justify-center">
-        <a className="callToAction flex gap-1" href="#"><img src={telegram} alt=""/> Start a Project</a>
-        </div> */}
       </div>
     </div>
   )
