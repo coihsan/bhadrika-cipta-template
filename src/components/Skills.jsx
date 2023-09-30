@@ -7,7 +7,7 @@ import css from '../assets/css.svg';
 import react from '../assets/react.svg';
 import vite from '../assets/vite.svg';
 import photoshop from '../assets/photoshop.svg';
-import astro from '../assets/astro.svg';
+import astroGradient from '../assets/astro-gradient.svg';
 import illustrator from '../assets/illustrator.svg';
 import AE from '../assets/after-effects.svg';
 import dot from '../assets/triple-dot.svg';
@@ -48,7 +48,7 @@ function Skills(){
               </div>
               {/* Progress */}
               <div>
-                <h5 className="font-bold text-lg">Skills &amp; Tool's</h5>
+                <h5 className="font-bold text-lg  w-full border-b-[1px] border-zinc-700 pb-1">Skills &amp; Tool's</h5>
                 <ul className=" flex items-center flex-wrap mt-3 gap-2">
                   <li className="text-sm py-1 px-3 bg-zinc-800 rounded">Google Ads</li>
                   <li className="text-sm py-1 px-3 bg-zinc-800 rounded">Meta Ads</li>
@@ -60,7 +60,7 @@ function Skills(){
                   <li className="text-sm py-1 px-3 bg-zinc-800 rounded">Video Creation</li>
                   <img src={dot} alt=""/>
                 </ul>
-                <div className="mt-4 flex flex-wrap gap-3">
+                <div className="mt-4 flex items-center flex-wrap gap-3">
                   <img className="w-12" src={photoshop} alt=""/>
                   <img className="w-12" src={illustrator} alt=""/>
                   <img className="w-12" src={AE} alt=""/>
@@ -93,7 +93,7 @@ function Skills(){
               </div>
               {/* Progress */}
               <div>
-                <h5 className="font-bold text-lg">Skills &amp; Tool's</h5>
+                <h5 className="font-bold text-lg w-full border-b-[1px] border-zinc-700 pb-1">Skills &amp; Tool's</h5>
                 <ul className="flex items-center flex-wrap mt-3 gap-2">
                   <li className="text-sm py-1 px-3 bg-zinc-800 rounded">On-Page SEO</li>
                   <li className="text-sm py-1 px-3 bg-zinc-800 rounded">Off-Page SEO</li>
@@ -104,13 +104,13 @@ function Skills(){
                   <li className="text-sm py-1 px-3 bg-zinc-800 rounded">Google Analytics</li>
                   <img src={dot} alt=""/>
                 </ul>
-                <div className="mt-4 flex flex-wrap gap-3">
-                  <img className="w-12" src={js} alt=""/>
+                <div className="mt-4 flex items-center flex-wrap gap-3">
+                  <img className="w-11" src={js} alt=""/>
                   <img className="w-10" src={css} alt=""/>
                   <img className="w-10" src={html} alt=""/>
                   <img className="w-12" src={react} alt=""/>
                   <img className="w-12" src={vite} alt=""/>
-                  <img className="w-12" src={astro} alt=""/>
+                  <img className="w-10" src={astroGradient} alt=""/>
                 </div>
               </div>
             </div>
