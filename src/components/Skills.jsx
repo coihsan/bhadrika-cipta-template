@@ -23,8 +23,8 @@ function Skills(){
       </div>
       {/* content */}
       <div className="grid skills-card gap-3 grid-cols-2 max-[768px]:grid-cols-1">
-          <div className="bg-gradient-to-b from-zinc-800 to-zinc-900 rounded-md p-0.5">
-            <div className="p-10 max-[600px]:p-5 bg-gradient-to-b from-zinc-900 via-zinc-950 to-zinc-950 rounded-md relative cards">
+          <div className="bg-gradient-to-b from-zinc-900 to-zinc-700 rounded-md p-0.5">
+            <div className="p-10 max-[600px]:p-5 bg-gradient-to-t from-zinc-900 via-zinc-950 to-zinc-950 rounded-md relative cards">
               {/* skills header */}
               <div className="mb-6" >
                 <img className="w-20 mb-5 m-auto" src={smile} alt=""/>
@@ -68,8 +68,8 @@ function Skills(){
               </div>
             </div>
           </div>
-          <div className="bg-gradient-to-b from-zinc-800 to-zinc-900 rounded-md p-0.5">
-            <div className="p-10 max-[600px]:p-5 bg-gradient-to-b from-zinc-900 via-zinc-950 to-zinc-950 rounded-md relative cards">
+          <div className="bg-gradient-to-b from-zinc-900 to-zinc-700 rounded-md p-0.5">
+            <div className="p-10 max-[600px]:p-5 bg-gradient-to-t from-zinc-900 via-zinc-950 to-zinc-950 rounded-md relative cards">
               {/* skills header */}
               <div className="mb-6" >
                 <img className="w-20 mb-5 m-auto" src={webdev} alt=""/>

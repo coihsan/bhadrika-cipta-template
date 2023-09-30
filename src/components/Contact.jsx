@@ -6,9 +6,9 @@ function Contact(){
      <div className="container">
           
         <div className=" flex flex-col">
-        <h1 className="text-5xl font-bold ">Get in touch</h1>
+        <h1 className="text-5xl font-bold ">Let's Get Started</h1>
           <h3 className="text-3xl w-4/5 max-[600px]:w-full leading-none mb-5 mt-5 ">If my profile suits your objectives, i would welcome the chance to be a part of your team!</h3>
-          <a className="callToAction w-max h-max" target="_blank" href="https://t.me/contactihsan"><i class="fa-solid fa-arrow-right"></i> Start a Project</a>
+          <a className="callToAction w-max h-max flex items-center gap-3 px-5" target="_blank" href="https://t.me/contactihsan"><i class="fa-brands fa-telegram text-[52px] absolute border -top-1 -left-1 text-sky-600 bg-zinc-50 rounded-full"></i> <span className="pl-9 ">Hello Ihsan 👋🏻</span></a>
         </div>
         
         </div>

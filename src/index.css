@@ -42,8 +42,8 @@ body {
   padding: 10px 1.5rem;
   color: #ffffff;
   border-radius: 50px;
-  background: linear-gradient(90deg, #f97316, #4f46e5);
-  border: 1px solid #f97316;
+  background-color: #18181b;
+  border: 1px solid #e4e4e7;
   transition: 0.35s var(--transition-cubic-1);
   transform: scale(1);
 }
@@ -56,11 +56,6 @@ body {
 .link-certificate{
   text-decoration: underline;
   font-size: 1.5rem;
-}
-.link-color{
-  color: #018cff;
-  text-decoration: underline;
-  font-weight: 600;
 }
 .text-indicator{
   padding-left: 15px;
