@@ -1,8 +1,7 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } = require('vite');
+import { vitePluginGhPages } = require('vite-plugin-gh-pages');
 
-
-// https://vitejs.dev/config/
-export default defineConfig({
-  plugins: [react()],
-})
+module.exports = defineConfig({
+  plugins: [react(),
+    vitePluginGhPages()],
+});
