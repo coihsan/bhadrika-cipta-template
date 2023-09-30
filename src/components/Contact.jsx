@@ -18,9 +18,9 @@ function Contact(){
         <div className="social-icon flex items-center gap-5 justify-center max-[600px]:justify-start">
               <a href="#"><i class="fa-brands fa-instagram"></i></a>
               <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a target="" href="#"><i class="fa-brands fa-linkedin"></i></a>
               <a href="#"><i class="fa-brands fa-github"></i></a>
-              <a href="#"><i class="fa-brands fa-codepen"></i></a>
+              <a target="https://codepen.io/coihsan" href="#"><i class="fa-brands fa-codepen"></i></a>
         </div>
      </div>
      

@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import { BrowserRouter as Router, Link } from 'react-router-dom';
+
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Skills2 from "./components/Skills-2";
@@ -14,7 +16,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="App relative">
+    <Router className="App relative">
       <Navbar/>
       <Hero />
         <Aboutme />
@@ -23,7 +25,7 @@ function App() {
         <Projects/>
         <Contact/>
       
-    </div>
+    </Router>
   )
 }
 

@@ -16,10 +16,10 @@ function Aboutme(){
         </div>
         </div>
         <div>
-        <h1 className="text-5xl mb-8 font-bold ">Short Bio</h1>
-        <p>I'm always up to date on the latest algorithms, like those used in social media or Google, marketing techniques, as well as learning about new technologies and how they can be applied to my job.</p>
+        <h1 className="text-5xl mb-5 font-bold ">Short Bio</h1>
+        <p>2016 was the year I started my career as a Graphic Designer, and in 2018 I started my career as a Design and Digital Marketer. and now I am expanding my knowledge and skills in Marketing Department such as Design, Digital Marketing including SEO and Web Developer</p>
         <br/>
-        <p className="">See all my badges on <a className="text-blue-400" target="_blank" href="https://www.credential.net/profile/muhammadihsan/wallet">Accredible <img className="w-5" src={link} alt="accredible"/></a></p> 
+        <p className="">See all my badges on <a className="text-blue-400" target="_blank" href="https://www.credential.net/profile/muhammadihsan/wallet">Accredible <i class="fa-solid fa-arrow-up-right-from-square text-zinc-400"></i></a></p> 
         </div>
         </div>
         

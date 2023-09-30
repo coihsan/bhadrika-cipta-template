@@ -6,7 +6,7 @@ import ads from '../assets/ads.svg';
 import design from '../assets/design.svg';
 import search from '../assets/search.svg';
 import sparkless from '../assets/sparkless.svg';
-import landingPagesServices from '../Pages/landing-pages-services.jsx'
+import { Link } from "react-router-dom";
 function Offering(){
   const [scrollY, setScrollY] = useState(0);
 
@@ -29,15 +29,17 @@ function Offering(){
         <div className="overflow-hidden w-full">
         <div className=" card-offering-wrapper">
         <div className="grid grid-cols-2 max-[600px]:grid-cols-1 gap-3 w-full">
-          <a href={'landingPagesServices'} className="cards shrink-0 basis-96 relative w-full border border-zinc-800 bg-gradient-to-tl from-zinc-900 to-zinc-950 p-10 rounded-md hover:border-zinc-500 transition-colors">
+          <div  className="cards shrink-0 basis-96 relative w-full border border-zinc-800 bg-gradient-to-tl from-zinc-900 to-zinc-950 p-10 rounded-md hover:border-zinc-500 transition-colors">
             <div className="p-0.5 bg-gradient-to-br from-amber-500 via-fuchsia-500 to-indigo-600 rounded-md mb-4 w-max">
             <img className="text-2xl py-3 px-3 flex font-bold bg-gradient-to-tl from-zinc-950 via-zinc-800 to-zinc-900 rounded-md" src={laptop} alt=""/>
             </div>
             <h1 className="text-3xl font-bold my-2">Custom Landing Page</h1>
             <p className="text-zinc-400">Create effective landing pages for your business and support A/B Testing.</p>
-            <a className="bg-gradient-to-l to-zinc-700 border border-zinc-700 px-5 py-2 w-max rounded-full mt-5 flex gap-3" href="#"><img src={arrow} alt=""/> Learn more</a>
-          </a>
-          <a href="#" className="cards shrink-0 basis-96 relative w-full border border-zinc-800 p-10 rounded-md bg-gradient-to-tl from-zinc-900 to-zinc-950 hover:border-zinc-500 transition-colors ">
+            <a href="/landing-pages-services" className="bg-gradient-to-l to-zinc-700 border border-zinc-700 px-5 py-2 w-max rounded-full mt-5 flex gap-3" href="#"><img src={arrow} alt=""/> Learn more</a>
+            <Link to="/landing-pages-services">Hellow</Link>
+          </div>
+          {/* END */}
+          <a href="/landing-pgaes-services" className="cards shrink-0 basis-96 relative w-full border border-zinc-800 p-10 rounded-md bg-gradient-to-tl from-zinc-900 to-zinc-950 hover:border-zinc-500 transition-colors ">
             <div className="p-0.5 bg-gradient-to-br from-lime-500 via-orange-500 to-blue-500 rounded-md mb-4 w-max">
             <img className="text-2xl py-3 px-3 flex font-bold bg-gradient-to-tl from-zinc-950 via-zinc-800 to-zinc-900 rounded-md" src={ads} alt=""/>
             </div>

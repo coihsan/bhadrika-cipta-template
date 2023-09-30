@@ -29,7 +29,7 @@ function Skills(){
               <div className="mb-6" >
                 <img className="w-20 mb-5 m-auto" src={smile} alt=""/>
                 <h3 className="text-3xl font-bold text-center mb-3">Digital {'{Marketing}'}</h3>
-                <p className="text-center">I am a web designer with experience in creating landing pages using HTML, CSS, and JavaScript.</p>
+                <p className="text-center">I have experience in the marketing department, with a wide range of job duties and events.</p>
               </div>
               {/* skills header */}
               {/* Progress */}
