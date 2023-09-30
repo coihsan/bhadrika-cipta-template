@@ -17,14 +17,14 @@ function Skills(){
     <div className="section m-auto max-[600px]:w-full" id="Skills">
       <div className="container">
       <div className="flex items-center gap-5 mb-8">
-        <span className="w-full h-0.5 bg-gradient-to-l from-violet-500 to-zinc-950 "></span>
+        <span className="w-full h-0.5 bg-gradient-to-l from-zinc-500 to-zinc-950 "></span>
         <h1 className="text-5xl text-center font-bold">Skills</h1>
-        <span className="w-full h-0.5 bg-gradient-to-r from-sky-500 to-zinc-950"></span>
+        <span className="w-full h-0.5 bg-gradient-to-r from-zinc-500 to-zinc-950"></span>
       </div>
       {/* content */}
-      <div className="grid skills-card gap-3 max-[768px]:grid-cols-1">
-          <div className="bg-gradient-to-tl from-lime-900 via-violet-500 to-amber-900 rounded-md p-0.5">
-            <div className="p-10 max-[600px]:p-5 bg-zinc-950 rounded-md">
+      <div className="grid skills-card gap-3 grid-cols-2 max-[768px]:grid-cols-1">
+          <div className="bg-gradient-to-b from-zinc-800 to-zinc-900 rounded-md p-0.5">
+            <div className="p-10 max-[600px]:p-5 bg-gradient-to-b from-zinc-900 via-zinc-950 to-zinc-950 rounded-md relative cards">
               {/* skills header */}
               <div className="mb-6" >
                 <img className="w-20 mb-5 m-auto" src={smile} alt=""/>
@@ -68,8 +68,8 @@ function Skills(){
               </div>
             </div>
           </div>
-          <div className="bg-gradient-to-tr from-rose-900 via-sky-500 to-purple-900 rounded-md p-0.5">
-            <div className="p-10 max-[600px]:p-5 bg-zinc-950 rounded-md">
+          <div className="bg-gradient-to-b from-zinc-800 to-zinc-900 rounded-md p-0.5">
+            <div className="p-10 max-[600px]:p-5 bg-gradient-to-b from-zinc-900 via-zinc-950 to-zinc-950 rounded-md relative cards">
               {/* skills header */}
               <div className="mb-6" >
                 <img className="w-20 mb-5 m-auto" src={webdev} alt=""/>
