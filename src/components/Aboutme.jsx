@@ -8,7 +8,7 @@ function Aboutme(){
     <div className="section m-auto aboutme">
       <div className="mb-[130px] w-full h-px bg-zinc-800"></div>
         <div className="container">
-        <div className="flex items-center gap-10 w-10/12 m-auto max-[600px]:flex-wrap">
+        <div className="flex items-center gap-10 w-10/12 m-auto max-[600px]:flex-col">
         <div className="max-[600px]:justify-center">
         <img className="mx-auto w-11/12 max-[600px]:w-56 rounded-full" src={'https://coihsan.github.io/profile/assets/avatar.webp'} alt="" />
         <div className="line-separator-hero">
