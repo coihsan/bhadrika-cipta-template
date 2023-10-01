@@ -9,7 +9,7 @@ import Skills from './Skills';
 
     return(
       <section >
-        <nav className="NavbarEl fixed top-0 left-0">
+        <nav className="NavbarEl fixed top-0 left-0 backdrop-blur-md">
           <div className="topNav section flex items-center justify-between">
           <div className="status-work flex-1">
               <div className="flex item-center justify-center relative">
