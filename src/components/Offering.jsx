@@ -7,7 +7,8 @@ import astro from '../assets/astro.svg';
 import design from '../assets/design.svg';
 import search from '../assets/search.svg';
 import sparkless from '../assets/sparkless.svg';
-import { Link } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 function Offering(){
   const [scrollY, setScrollY] = useState(0);
 
@@ -36,7 +37,7 @@ function Offering(){
             </div>
             <h1 className="text-3xl font-bold my-2">Build a Web with Astro</h1>
             <p className="text-zinc-400">I can help you build a web or landing page with astro.build and also support A/B Testing.</p>
-            <a href="#" className="bg-gradient-to-l to-zinc-700 border border-zinc-700 px-5 py-2 w-max rounded-full mt-5 flex gap-3"><img src={arrow} alt=""/> Learn more</a>
+            <Link to="pages/landing-pages-services" className="bg-gradient-to-l to-zinc-700 border border-zinc-700 px-5 py-2 w-max rounded-full mt-5 flex gap-3"><img src={arrow} alt=""/> Learn more</Link>
           </div>
           {/* END */}
           <a href="/landing-pgaes-services" className="cards shrink-0 basis-96 relative w-full border border-zinc-800 p-10 rounded-md bg-gradient-to-tl from-zinc-900 to-zinc-950 hover:border-zinc-500 transition-colors ">
