@@ -21,7 +21,7 @@ function App() {
       <Hero />
         <Aboutme />
         
-        <div className="h-[60%] w-full bg-gradient-to-t from-zinc-950 via-zinc-900 to-zinc-950 ">
+        <div className="h-[60%] w-full bg-gradient-to-t from-zinc-950 via-[#4e6eff0e] to-zinc-950 ">
           <Skills/>
           <Offering/>
         </div>
