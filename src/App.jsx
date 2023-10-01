@@ -20,8 +20,12 @@ function App() {
       <Navbar/>
       <Hero />
         <Aboutme />
-        <Skills/>
-        <Offering/>
+        
+        <div className="h-[60%] w-full bg-gradient-to-t from-zinc-950 via-zinc-900 to-zinc-950 ">
+          <Skills/>
+          <Offering/>
+        </div>
+        
         <Projects/>
         <Contact/>
       

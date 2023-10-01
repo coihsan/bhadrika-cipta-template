@@ -17,7 +17,7 @@ function Projects(){
           {/* content 1 */}
           <div className="relative rounded-md overflow-hidden">
             <img className="hover:scale-125 transition-all duration-[2000ms] origin-top" src={'https://coihsan.github.io/profile/assets/jhondoe-hero.webp'} alt=""/>
-            <div className="absolute bottom-0 right-0  flex items-center backdrop-blur-sm backdrop-opacity-30 bg-white/30">
+            <div className="flex items-center backdrop-blur-sm backdrop-opacity-30 bg-white/30">
               <a className="text-sm flex items-center gap-2 hover:bg-zinc-900 px-3 py-1" href="#"><img className="w-4" src={github} alt=""/>Get Code</a>
               <a className="text-sm flex items-center gap-2 hover:bg-zinc-900 px-3 py-1" href="#"><img className="w-4" src={preview} alt=""/>Live Demo</a>
             </div>
@@ -25,7 +25,7 @@ function Projects(){
           {/* content 2 */}
           <div className="relative rounded-md overflow-hidden">
           <img className="hover:scale-125 transition-all duration-[2000ms] origin-top" src={'https://coihsan.github.io/profile/assets/Mack-Smith-Resume-2023.webp'} alt=""/>
-          <div className="absolute bottom-0 right-0  flex items-center backdrop-blur-sm backdrop-opacity-30 bg-white/30">
+          <div className="  flex items-center backdrop-blur-sm backdrop-opacity-30 bg-white/30">
               <a className="text-sm flex items-center gap-2 hover:bg-zinc-900 px-3 py-1" href="#"><img className="w-4" src={github} alt=""/>Get Code</a>
               <a className="text-sm flex items-center gap-2 hover:bg-zinc-900 px-3 py-1" href="#"><img className="w-4" src={preview} alt=""/>Live Demo</a>
             </div>

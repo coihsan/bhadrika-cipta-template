@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 function Contact(){
   return (
-    <div className="mb-24 ">
+    <div className="bg-gradient-to-b from-zinc-950 to-zinc-900 py-14">
      <div className="container">
           
         <div className=" flex flex-col">
@@ -12,7 +12,7 @@ function Contact(){
         </div>
         
         </div>
-        <div className="mb-separator w-full h-px bg-zinc-800"></div>
+        <div className="mt-[70px] mb-[30px] w-full h-px bg-zinc-800"></div>
         <div className="flex justify-between items-center max-[600px]:flex-col container">
         <p>© 2023 ALL right Reserved to <strong>coihsan</strong></p>
         <div className="social-icon flex items-center gap-5 justify-center max-[600px]:justify-start">
