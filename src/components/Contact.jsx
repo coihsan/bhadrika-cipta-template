@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 function Contact(){
   return (
-    <div className="bg-gradient-to-b from-zinc-950 to-zinc-900 py-14">
+    <div className="bg-gradient-to-b from-zinc-950 to-[#4e6eff0e] py-14">
      <div className="container">
           
         <div className=" flex flex-col">
