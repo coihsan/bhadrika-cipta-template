@@ -20,7 +20,7 @@ function Offering(){
         <div className="overflow-hidden w-full">
         <div className=" card-offering-wrapper">
         <div className="grid grid-cols-2 max-[600px]:grid-cols-1 gap-3 w-full">
-          <div  className="cards shrink-0 basis-96 relative w-full border border-zinc-800 bg-gradient-to-tl from-zinc-900 to-zinc-950 p-10 rounded-md hover:border-zinc-500 transition-colors">
+          <div  className="cards shrink-0 basis-96 relative w-full border border-zinc-800 bg-gradient-to-tl from-transparent via-zinc-950 to-[#4e6eff0e] p-10 rounded-md hover:border-zinc-500 transition-colors">
             <div className="p-0.5 bg-gradient-to-br from-amber-500 via-fuchsia-500 to-indigo-600 rounded-md mb-4 w-max">
             <img className=" py-3 px-3 flex bg-gradient-to-tl from-zinc-950 via-zinc-800 to-zinc-900 rounded-md" src={laptop} alt=""/>
             </div>
@@ -29,7 +29,7 @@ function Offering(){
             <a href="/Services.jsx" to="/Services" className="bg-gradient-to-l to-zinc-700 border border-zinc-700 px-5 py-2 w-max rounded-full mt-5 flex gap-3"><img src={arrow} alt=""/> Learn more</a>
           </div>
           {/* END */}
-          <a href="/services" className="cards shrink-0 basis-96 relative w-full border border-zinc-800 p-10 rounded-md bg-gradient-to-tl from-zinc-900 to-zinc-950 hover:border-zinc-500 transition-colors ">
+          <a href="/services" className="cards shrink-0 basis-96 relative w-full border border-zinc-800 p-10 rounded-md bg-gradient-to-tl from-transparent via-zinc-950 to-[#4e6eff0e] hover:border-zinc-500 transition-colors ">
             <div className="p-0.5 bg-gradient-to-br from-lime-500 via-orange-500 to-blue-500 rounded-md mb-4 w-max">
             <img className="py-3 px-3 flex  bg-gradient-to-tl from-zinc-950 via-zinc-800 to-zinc-900 rounded-md" src={ads} alt=""/>
             </div>
@@ -37,7 +37,7 @@ function Offering(){
             <p className="text-zinc-400">Reach a wider audience with targeted ads that are relevant to the target market with Google or Meta Ads.</p>
             <a className="bg-gradient-to-l to-zinc-700 border border-zinc-700 px-5 py-2 w-max rounded-full mt-5 flex gap-3" href="#"><img src={arrow} alt=""/> Learn more</a>
           </a>
-          <a href="#" className="cards shrink-0 basis-96 relative w-full border border-zinc-800 p-10 rounded-md bg-gradient-to-tl from-zinc-900 to-zinc-950 hover:border-zinc-500 transition-colors">
+          <a href="#" className="cards shrink-0 basis-96 relative w-full border border-zinc-800 p-10 rounded-md bg-gradient-to-tl from-transparent via-zinc-950 to-[#4e6eff0e] hover:border-zinc-500 transition-colors">
             <div className="p-0.5 bg-gradient-to-br from-sky-500 via-fuchsia-500 to-pink-500 rounded-md mb-4 w-max">
             <img className="text-2xl py-3 px-3 flex font-bold bg-gradient-to-tl from-zinc-950 via-zinc-800 to-zinc-900 rounded-md" src={design} alt=""/>
             </div>
@@ -45,7 +45,7 @@ function Offering(){
             <p className="text-zinc-400">Design images and video variants for your brand on social media, and also create Engagement Campaigns.</p>
             <a className="bg-gradient-to-l to-zinc-700 border border-zinc-700 px-5 py-2 w-max rounded-full mt-5 flex gap-3" href="#"><img src={arrow} alt=""/> Learn more</a>
           </a>
-          <a href="" className="cards shrink-0 basis-96 relative w-full border border-zinc-800 p-10 rounded-md bg-gradient-to-tl from-zinc-900 to-zinc-950 hover:border-zinc-500 transition-colors">
+          <a href="" className="cards shrink-0 basis-96 relative w-full border border-zinc-800 p-10 rounded-md bg-gradient-to-tl from-transparent via-zinc-950 to-[#4e6eff0e] hover:border-zinc-500 transition-colors">
             <div className="p-0.5 bg-gradient-to-br from-teal-500 via-rose-500 to-indigo-500 rounded-md mb-4 w-max">
             <img className="text-2xl py-3 px-3 flex font-bold bg-gradient-to-tl from-zinc-950 via-zinc-800 to-zinc-900 rounded-md" src={search} alt=""/>
             </div>
