@@ -15,7 +15,7 @@ function Offering(){
       <div className="container">
         <div className="flex items-center gap-3 mb-8">
           <img className="w-9" src={sparkless} alt=""/>
-          <h1 className="text-5xl font-bold">Offering</h1>
+          <h1 className="text-5xl font-bold max-[470px]:text-4xl">Offering</h1>
         </div>
         <div className="overflow-hidden w-full">
         <div className=" card-offering-wrapper">

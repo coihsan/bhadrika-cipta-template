@@ -18,7 +18,7 @@ function Skills(){
       <div className="container">
       <div className="flex items-center gap-5 mb-8">
         <span className="w-full h-0.5 bg-gradient-to-l from-zinc-500 to-zinc-950 "></span>
-        <h1 className="text-5xl text-center font-bold">Skills</h1>
+        <h1 className="text-5xl text-center font-bold max-[470px]:text-4xl">Skills</h1>
         <span className="w-full h-0.5 bg-gradient-to-r from-zinc-500 to-zinc-950"></span>
       </div>
       {/* content */}

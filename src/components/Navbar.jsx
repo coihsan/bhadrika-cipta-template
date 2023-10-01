@@ -6,12 +6,6 @@ import Skills from './Skills';
 
   const Navbar = () =>{
     const [isActive, setIsActive] = React.useState(false);
-    const [icon, setIcon] = useState("fa-bars");
-
-    const handleClick = () => {
-      setIsActive(!isActive)
-      setIcon(icon === "fa-bars" ? "fa-x" : "fa-bars");
-    };
 
     return(
       <section >
@@ -22,11 +16,11 @@ import Skills from './Skills';
                 <div className="bullet-pulse absolute"></div> 
                 <div className="bullet-pulse animate-ping"></div> 
               </div>
-              <span>Available for freelance</span>
+              <span className="max-[470px]:text-[14px]">Available for freelance</span>
             </div>
             <div className="flex gap-2 menu-dekstop">
               <img src={arrow} alt=""/>
-              <a className="navlink" href="#">Let's Talk!</a>
+              <a className="navlink" target="_blank" href="https://t.me/contactihsan">Let's Talk!</a>
             </div>
           </div>
     </nav>

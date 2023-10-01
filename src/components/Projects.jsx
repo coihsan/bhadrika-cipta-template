@@ -9,7 +9,7 @@ function Projects(){
         <div className="mb-8 flex items-end justify-between">
           <div className="flex items-center gap-3">
           <img className="w-9" src={sparkless} alt=""/>
-          <h1 className="text-5xl font-bold">Resources</h1>
+          <h1 className="text-5xl font-bold max-[470px]:text-4xl">Resources</h1>
         </div>
           <a href="#">Index</a>
         </div>
