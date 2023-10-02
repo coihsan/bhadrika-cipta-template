@@ -13,6 +13,7 @@
     "framer-motion": "^10.16.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "ts-morph": "^20.0.0",
     "vite-plugin-gh-pages": "^0.4.1",
     "vite-plugin-react-pages": "^4.1.5"
   },
