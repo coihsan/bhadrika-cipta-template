@@ -17,9 +17,9 @@ const Offering = () => {
   return (
     <div className="section m-auto max-[600px]:w-full">
       <div className="container">
-        <div className="flex items-center gap-3 mb-8">
+        <div className="flex items-start gap-3 mb-8">
           <img className="w-9" src={sparkless} alt=""/>
-          <h1 className="text-5xl font-bold max-[470px]:text-4xl">Offering</h1>
+          <h1 className="text-5xl font-bold max-[470px]:text-4xl">Need a something? I can help you with these</h1>
         </div>
         <div className="overflow-hidden w-full">
         <div className=" card-offering-wrapper">
@@ -28,8 +28,8 @@ const Offering = () => {
             <div className="p-0.5 bg-gradient-to-br from-amber-500 via-fuchsia-500 to-indigo-600 rounded-md mb-4 w-max">
             <img className=" py-3 px-3 flex bg-gradient-to-tl from-zinc-950 via-zinc-800 to-zinc-900 rounded-md" src={laptop} alt=""/>
             </div>
-            <h1 className="text-3xl font-bold my-2">Build a Web with Astro</h1>
-            <p className="text-zinc-400">I can help you build a web or landing page with astro.build and also support A/B Testing.</p>
+            <h1 className="text-3xl font-bold my-2">Build a Web with Astro or Vite</h1>
+            <p className="text-zinc-400">I can help you build a Web or Landing Page with Astro.build or Vite.dev. Also support A/B Testing for Landing Page.</p>
             <a href={'/Services'} className="bg-gradient-to-l to-zinc-700 border border-zinc-700 px-5 py-2 w-max rounded-full mt-5 flex gap-3"><img src={arrow} alt=""/> Learn more</a>
             <Link to="/Services">My Projects</Link>
           </div>
