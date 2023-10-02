@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React from 'react';
+import { Link } from 'react-router-dom';
 import { motion } from "framer-motion";
 import arrow from '../assets/arrow.svg';
 import laptop from '../assets/laptop.svg';
@@ -6,12 +7,12 @@ import ads from '../assets/ads.svg';
 import design from '../assets/design.svg';
 import search from '../assets/search.svg';
 import sparkless from '../assets/sparkless.svg';
-// import { Link } from 'vite-plugin-react-pages';
+import Services from "../pages/Services";
 // import { Node } from 'ts-morph';
 
 
 const Offering = () => {
-  const [count, setCount] = useState(0);
+
 
   return (
     <div className="section m-auto max-[600px]:w-full">
@@ -23,7 +24,7 @@ const Offering = () => {
         <div className="overflow-hidden w-full">
         <div className=" card-offering-wrapper">
         <div className="grid grid-cols-2 max-[600px]:grid-cols-1 gap-3 w-full">
-          <div  className="cards shrink-0 basis-96 relative w-full border border-zinc-800 bg-gradient-to-tl from-transparent via-zinc-950 to-[#4e6eff0e] p-10 rounded-md hover:border-zinc-500 transition-colors">
+          <div  class="cards shrink-0 basis-96 relative w-full border border-zinc-800 bg-gradient-to-tl from-transparent via-zinc-950 to-[#4e6eff0e] p-10 rounded-md hover:border-zinc-500 transition-colors">
             <div className="p-0.5 bg-gradient-to-br from-amber-500 via-fuchsia-500 to-indigo-600 rounded-md mb-4 w-max">
             <img className=" py-3 px-3 flex bg-gradient-to-tl from-zinc-950 via-zinc-800 to-zinc-900 rounded-md" src={laptop} alt=""/>
             </div>
