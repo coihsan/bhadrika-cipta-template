@@ -6,6 +6,9 @@ import ads from '../assets/ads.svg';
 import design from '../assets/design.svg';
 import search from '../assets/search.svg';
 import sparkless from '../assets/sparkless.svg';
+// import { Link } from 'vite-plugin-react-pages';
+// import { Node } from 'ts-morph';
+
 
 function Offering(){
   const [count, setCount] = useState(0);
