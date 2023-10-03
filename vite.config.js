@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-// import { resolve } from 'path'
+import { resolve } from 'path'
 
 // const root = resolve(__dirname, 'src')
 // const outDir = resolve(__dirname, 'src')
@@ -8,16 +8,16 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: 'https://coihsan.github.io/vite-first/',
-  build: {
-    rollupOptions: {
-      input: {
-        main: './index.html',
-        services: './src/pages/Services.jsx',
-      },
-      output: {
-        css: './dist/main.css',
-        js: './dist/main.js',
-      },
-    },
-  },
+  // build: {
+  //   rollupOptions: {
+  //     input: {
+  //       main: './index.html',
+  //       services: './src/pages/Services.jsx',
+  //     },
+  //     output: {
+  //       css: './dist/main.css',
+  //       js: './dist/main.js',
+  //     },
+  //   },
+  // },
 })
