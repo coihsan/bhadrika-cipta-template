@@ -11,12 +11,8 @@ export default defineConfig({
   // build: {
   //   rollupOptions: {
   //     input: {
-  //       main: './index.html',
-  //       services: './src/pages/Services.jsx',
-  //     },
-  //     output: {
-  //       css: './dist/main.css',
-  //       js: './dist/main.js',
+  //       main: resolve(__dirname, 'index.html'),
+  //       nested: resolve(__dirname, 'pages/index.html'),
   //     },
   //   },
   // },
