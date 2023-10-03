@@ -1,8 +1,11 @@
 import React from 'react';
+import Navbar from "../components/Navbar";
 
 const LandingPageServices = () =>{
   return (
-    <div className="section max-[600px]:w-full">
+    <section>
+      <Navbar/>
+      <div className="section max-[600px]:w-full">
       <div className="container">
         <div className="grid grid-cols-2 gap-3 max-[600px]:grid-cols-1">
           {/* content 1 */}
@@ -24,6 +27,7 @@ const LandingPageServices = () =>{
         </div>
       </div>
     </div>
+    </section>
   )
 }
 
