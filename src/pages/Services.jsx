@@ -2,9 +2,27 @@ import React from 'react';
 
 const LandingPageServices = () =>{
   return (
-    <div>
-          <h1>Landing Page Services</h1>
-          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    <div className="section max-[600px]:w-full">
+      <div className="container">
+        <div className="grid grid-cols-2 gap-3 max-[600px]:grid-cols-1">
+          {/* content 1 */}
+          <div className="relative overflow-hidden">
+          <img className="hover:scale-[1.1] delay-0 transition-all duration-[1000ms] ease-in origin-top" src={'https://coihsan.github.io/profile/assets/jhondoe-hero.webp'} alt=""/>
+            <div className="absolute bottom-0 right-0 flex items-center backdrop-blur-md bg-white/10 backdrop-opacity-10 backdrop-invert">
+              <a className="text-sm flex items-center gap-2 hover:bg-zinc-900 px-3 py-1" href="#"><img className="w-4" src={github} alt=""/>Get Code</a>
+              <a className="text-sm flex items-center gap-2 hover:bg-zinc-900 px-3 py-1" href="#"><img className="w-4" src={preview} alt=""/>Live Demo</a>
+            </div>
+          </div>
+          {/* content 2 */}
+          <div className="relative overflow-hidden">
+          <img className="hover:scale-[1.1] delay-0 transition-all duration-[1000ms] ease-in origin-top" src={'https://coihsan.github.io/profile/assets/Mack-Smith-Resume-2023.webp'} alt=""/>
+          <div className=" absolute bottom-0 right-0 flex items-center backdrop-blur-md bg-white/10 backdrop-opacity-10 backdrop-invert">
+              <a className="text-sm flex items-center gap-2 hover:bg-zinc-900 px-3 py-1" href="#"><img className="w-4" src={github} alt=""/>Get Code</a>
+              <a className="text-sm flex items-center gap-2 hover:bg-zinc-900 px-3 py-1" href="#"><img className="w-4" src={preview} alt=""/>Live Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
