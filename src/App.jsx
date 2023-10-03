@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React, { useState } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Aboutme from "./components/Aboutme";
@@ -14,19 +13,15 @@ const App = () => {
   const [count, setCount] = useState(0);
 
   return (
-    <Router>
-      <Routes>
-      <Route path="/">
-        <Navbar/>
-        <Hero />
-        <Aboutme />
-        <Skills/>
-        <Offering/>
-        <Projects/>
-        <Contact/>
-        </Route>
-      </Routes>
-    </Router>
+    <section>
+      <Navbar/>
+      <Hero />
+      <Aboutme />
+      <Skills/>
+      <Offering/>
+      <Projects/>
+      <Contact/>
+    </section>
   )
 }
 
