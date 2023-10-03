@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import link from '../assets/link.svg';
 import { motion } from "framer-motion"
 
 

@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import google from '../assets/google.svg';
-import link from '../assets/link.svg';
 import telegram from '../assets/telegram.svg';
 
 function Hero(){

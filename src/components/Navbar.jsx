@@ -23,7 +23,7 @@ import Skills from './Skills';
               <a className="navlink" target="_blank" href="https://t.me/contactihsan">Let's Talk!</a>
             </div>
           </div>
-    </nav>
+        </nav>
       </section>
     )
   }
