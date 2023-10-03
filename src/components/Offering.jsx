@@ -8,8 +8,6 @@ import design from '../assets/design.svg';
 import search from '../assets/search.svg';
 import sparkless from '../assets/sparkless.svg';
 import Services from "../pages/Services";
-// import { Node } from 'ts-morph';
-
 
 const Offering = () => {
 
