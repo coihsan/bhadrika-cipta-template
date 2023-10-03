@@ -11,18 +11,19 @@ import './index.css';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: '/',
     element: <App/>,
     errorElement: <ErrorPage />,
   },
   {
-    path: "/",
+    path: "/pages",
     element: <Services/>,
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    {/* <App/> */}
     <RouterProvider router={router} />
   </React.StrictMode>,
 )
