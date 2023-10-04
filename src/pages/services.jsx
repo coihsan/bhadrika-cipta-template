@@ -3,7 +3,7 @@ import React from 'react';
 
 const Services = () =>{
   return (
-    <section id="services">
+    <section>
       {/* <Navbar/> */}
       <div className="section max-[600px]:w-full">
       <div className="container">

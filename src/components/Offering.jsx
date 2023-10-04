@@ -26,34 +26,33 @@ const Offering = () => {
             </div>
             <h1 className="text-3xl font-bold my-2">Build a Web with Astro or Vite</h1>
             <p className="text-zinc-400">I can help you build a Web or Landing Page with Astro.build or Vite.dev. Also support A/B Testing for Landing Page.</p>
-            <a href={"/services"} className="bg-gradient-to-l to-zinc-700 border border-zinc-700 px-5 py-2 w-max rounded-full mt-5 flex gap-3"><img src={arrow} alt=""/> Learn more</a>
-            <Link to={"/services"}>Lihat Layanan</Link>
+            <Link className="bg-gradient-to-l to-zinc-700 border border-zinc-700 px-5 py-2 w-max rounded-full mt-5 flex gap-3" to="/vite-first/pages/services"><img src={arrow} alt=""/> Learn more</Link>
           </div>
           {/* END */}
-          <a href="/services" className="cards shrink-0 basis-96 relative w-full border border-zinc-800 p-10 rounded-md bg-gradient-to-tl from-transparent via-zinc-950 to-[#4e6eff0e] hover:border-zinc-500 transition-colors ">
+          <div className="cards shrink-0 basis-96 relative w-full border border-zinc-800 p-10 rounded-md bg-gradient-to-tl from-transparent via-zinc-950 to-[#4e6eff0e] hover:border-zinc-500 transition-colors ">
             <div className="p-0.5 bg-gradient-to-br from-lime-500 via-orange-500 to-blue-500 rounded-md mb-4 w-max">
             <img className="py-3 px-3 flex  bg-gradient-to-tl from-zinc-950 via-zinc-800 to-zinc-900 rounded-md" src={ads} alt=""/>
             </div>
             <h1 className="text-3xl font-bold my-2">Google &amp; Social Media Ads</h1>
             <p className="text-zinc-400">Reach a wider audience with targeted ads that are relevant to the target market with Google or Meta Ads.</p>
-            <a className="bg-gradient-to-l to-zinc-700 border border-zinc-700 px-5 py-2 w-max rounded-full mt-5 flex gap-3" href="#"><img src={arrow} alt=""/> Learn more</a>
-          </a>
-          <a href="#" className="cards shrink-0 basis-96 relative w-full border border-zinc-800 p-10 rounded-md bg-gradient-to-tl from-transparent via-zinc-950 to-[#4e6eff0e] hover:border-zinc-500 transition-colors">
+            <Link className="bg-gradient-to-l to-zinc-700 border border-zinc-700 px-5 py-2 w-max rounded-full mt-5 flex gap-3" to={"/services"}><img src={arrow} alt=""/> Learn more</Link>
+          </div>
+          <div className="cards shrink-0 basis-96 relative w-full border border-zinc-800 p-10 rounded-md bg-gradient-to-tl from-transparent via-zinc-950 to-[#4e6eff0e] hover:border-zinc-500 transition-colors">
             <div className="p-0.5 bg-gradient-to-br from-sky-500 via-fuchsia-500 to-pink-500 rounded-md mb-4 w-max">
             <img className="text-2xl py-3 px-3 flex font-bold bg-gradient-to-tl from-zinc-950 via-zinc-800 to-zinc-900 rounded-md" src={design} alt=""/>
             </div>
             <h1 className="text-3xl font-bold my-2">Social Media Content</h1>
             <p className="text-zinc-400">Design images and video variants for your brand on social media, and also create Engagement Campaigns.</p>
-            <a className="bg-gradient-to-l to-zinc-700 border border-zinc-700 px-5 py-2 w-max rounded-full mt-5 flex gap-3" href="#"><img src={arrow} alt=""/> Learn more</a>
-          </a>
-          <a href="" className="cards shrink-0 basis-96 relative w-full border border-zinc-800 p-10 rounded-md bg-gradient-to-tl from-transparent via-zinc-950 to-[#4e6eff0e] hover:border-zinc-500 transition-colors">
+            <Link className="bg-gradient-to-l to-zinc-700 border border-zinc-700 px-5 py-2 w-max rounded-full mt-5 flex gap-3" to={"/services"}><img src={arrow} alt=""/> Learn more</Link>
+          </div>
+          <div className="cards shrink-0 basis-96 relative w-full border border-zinc-800 p-10 rounded-md bg-gradient-to-tl from-transparent via-zinc-950 to-[#4e6eff0e] hover:border-zinc-500 transition-colors">
             <div className="p-0.5 bg-gradient-to-br from-teal-500 via-rose-500 to-indigo-500 rounded-md mb-4 w-max">
             <img className="text-2xl py-3 px-3 flex font-bold bg-gradient-to-tl from-zinc-950 via-zinc-800 to-zinc-900 rounded-md" src={search} alt=""/>
             </div>
             <h1 className="text-3xl font-bold my-2">Search Engine Optimization</h1>
             <p className="text-zinc-400">I will optimize your website for relevant keywords, code, structure and content appropriate to the ranking factors.</p>
-            <a className="bg-gradient-to-l to-zinc-700 border border-zinc-700 px-5 py-2 w-max rounded-full mt-5 flex gap-3" href="#"><img src={arrow} alt=""/> Learn more</a>
-          </a>
+            <Link className="bg-gradient-to-l to-zinc-700 border border-zinc-700 px-5 py-2 w-max rounded-full mt-5 flex gap-3" to={"/services"}><img src={arrow} alt=""/> Learn more</Link>
+          </div>
         </div>
         </div>
       </div>

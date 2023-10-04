@@ -8,6 +8,7 @@ import Projects from "./components/Projects";
 import Offering from "./components/Offering";
 import Contact from "./components/Contact";
 
+
 import './App.css';
 
 const App = () => {
@@ -20,7 +21,6 @@ const App = () => {
       <Projects />
       <Offering />
       <Contact />
-
     </div>
   );
 }
