@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 
 const LandingPageServices = () =>{
   return (
-    <section>
+    <section id="services">
       <Navbar/>
       <div className="section max-[600px]:w-full">
       <div className="container">
