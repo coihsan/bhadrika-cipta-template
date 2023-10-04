@@ -1,7 +1,7 @@
 import React from 'react';
 // import Navbar from "../components/Navbar";
 
-const LandingPageServices = () =>{
+const Services = () =>{
   return (
     <section id="services">
       {/* <Navbar/> */}
@@ -31,4 +31,4 @@ const LandingPageServices = () =>{
   )
 }
 
-export default LandingPageServices
+export default Services
