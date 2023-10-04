@@ -7,7 +7,7 @@ import ads from '../assets/ads.svg';
 import design from '../assets/design.svg';
 import search from '../assets/search.svg';
 import sparkless from '../assets/sparkless.svg';
-import Services from "../pages/Services";
+import Services from "../services";
 
 const Offering = () => {
 
