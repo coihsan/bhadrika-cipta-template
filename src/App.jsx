@@ -6,6 +6,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Offering from "./components/Offering";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 
 import './App.css';
@@ -20,6 +21,7 @@ const App = () => {
       <Projects />
       <Offering />
       <Contact />
+      <Footer />
     </div>
   );
 }
