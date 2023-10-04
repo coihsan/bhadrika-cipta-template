@@ -4,7 +4,7 @@ import {createBrowserRouter, RouterProvider,} from "react-router-dom";
 import App from './App'
 import './index.css';
 import ErrorPage from "./error-page";
-import Services from "./pages/services";
+import BuildaWebsite from "./pages/buildawebsite";
 
 const router = createBrowserRouter([
   {
@@ -13,8 +13,8 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "/vite-first/pages/services",
-        element: <Services />,
+        path: "/vite-first/pages",
+        element: <BuildaWebsite />,
       },
     ],
   },
