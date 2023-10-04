@@ -5,7 +5,7 @@ import { createRoot } from "react-dom/client";
 import App from './App.jsx';
 import './index.css';
 import ErrorPage from "./error-page";
-import Services from "./pages/Services";
+import Services from "./Services";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +21,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    {/* <App /> */}
     <RouterProvider router={router} />
   </React.StrictMode>,
 )
