@@ -8,17 +8,14 @@ import BuildaWebsite from "./pages/buildawebsite";
 
 const router = createBrowserRouter([
   {
-    path: "/vite-first/",
+    path: "/",
     element: <App />,
     errorElement: <ErrorPage />,
-    children: [
-      {
-        path: "/vite-first/pages",
-        element: <BuildaWebsite />,
-      },
-    ],
   },
-  
+  {
+    path: "website",
+    element: <BuildaWebsite />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
