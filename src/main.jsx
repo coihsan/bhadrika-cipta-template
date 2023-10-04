@@ -15,7 +15,7 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "/vite-first/pages/services",
+        path: "/vite-first/index-services",
         element: <Services />,
       },
     ],
