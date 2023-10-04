@@ -1,10 +1,10 @@
 import React from 'react';
-import Navbar from "./components/Navbar";
+// import Navbar from "../components/Navbar";
 
 const LandingPageServices = () =>{
   return (
     <section id="services">
-      <Navbar/>
+      {/* <Navbar/> */}
       <div className="section max-[600px]:w-full">
       <div className="container">
         <div className="grid grid-cols-2 gap-3 max-[600px]:grid-cols-1">

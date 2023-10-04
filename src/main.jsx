@@ -1,26 +1,30 @@
 import * as React from "react";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import ReactDOM from 'react-dom/client';
-import { createRoot } from "react-dom/client";
-import App from "./App";
+import * as ReactDOM from "react-dom";
+import {createBrowserRouter, RouterProvider,} from "react-router-dom";
+import App from './App'
 import './index.css';
 import ErrorPage from "./error-page";
-import Services from "./services";
+import Services from "./pages/index-services";
+
+// import Root from "./routes/root";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/vite-first/",
     element: <App />,
-    // errorElement: <ErrorPage />,
+    errorElement: <ErrorPage />,
+    children: [
+      {
+        path: "/vite-first/pages/services",
+        element: <Services />,
+      },
+    ],
   },
-  {
-    path: "Services/:services",
-    element: <Services />,
-  }
+  
 ]);
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>,
-)
+  </React.StrictMode>
+);
