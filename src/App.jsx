@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Aboutme from "./components/Aboutme";
@@ -10,18 +11,20 @@ import Contact from "./components/Contact";
 import './App.css';
 
 const App = () => {
-  const [count, setCount] = useState(0);
-
   return (
-    <section>
-      <Navbar/>
-      <Hero />
-      <Aboutme />
-      <Skills/>
-      <Offering/>
-      <Projects/>
-      <Contact/>
-    </section>
+    <Router basename="/App" >
+      <Routes>
+      <Route path="/" element={<App />} exact>
+        <Navbar/>
+        <Hero />
+        <Aboutme />
+        <Skills/>
+        <Offering/>
+        <Projects/>
+        <Contact/>
+        </Route>
+      </Routes>
+    </Router>
   )
 }
 
