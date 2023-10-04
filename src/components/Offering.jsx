@@ -29,7 +29,7 @@ const Offering = () => {
             <h1 className="text-3xl font-bold my-2">Build a Web with Astro or Vite</h1>
             <p className="text-zinc-400">I can help you build a Web or Landing Page with Astro.build or Vite.dev. Also support A/B Testing for Landing Page.</p>
             <a href="#" className="bg-gradient-to-l to-zinc-700 border border-zinc-700 px-5 py-2 w-max rounded-full mt-5 flex gap-3"><img src={arrow} alt=""/> Learn more</a>
-            {/* <Link to="/Services">My Projects</Link> */}
+            <Link to="/Services">My Projects</Link>
           </div>
           {/* END */}
           <a href="/services" className="cards shrink-0 basis-96 relative w-full border border-zinc-800 p-10 rounded-md bg-gradient-to-tl from-transparent via-zinc-950 to-[#4e6eff0e] hover:border-zinc-500 transition-colors ">
