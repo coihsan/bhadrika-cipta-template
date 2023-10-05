@@ -2,9 +2,8 @@ import { useState } from 'react'
 
 function Contact(){
   return (
-    <div className="bg-gradient-to-b from-zinc-950 to-[#4e6eff0e] py-11">
+    <>
      <div className="container">
-          
         <div className=" flex flex-col">
         <h1 className="text-5xl font-bold max-[470px]:text-4xl">Let's Get Started</h1>
           <h3 className="text-3xl w-4/5 max-[600px]:w-full leading-none mb-5 mt-5 ">If my profile suits your objectives, i would welcome the chance to be a part of your team!</h3>
@@ -12,9 +11,9 @@ function Contact(){
         </div>
         
         </div>
-        
+        <div className="mt-[130px] w-full h-px bg-zinc-800"></div>
      
-      </div>
+      </>
   )
 }
 
