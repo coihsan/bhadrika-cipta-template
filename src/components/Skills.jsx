@@ -52,13 +52,13 @@ function Skills(){
               <div>
                 <h5 className="font-bold text-lg w-full border-b-[1px] border-zinc-700 pb-1">Skills &amp; Tool's</h5>
                 <ul className="flex items-center flex-wrap mt-3 gap-2">
-                  <li className="text-sm py-1 px-3 bg-zinc-800 rounded">On-Page SEO</li>
-                  <li className="text-sm py-1 px-3 bg-zinc-800 rounded">Off-Page SEO</li>
-                  <li className="text-sm py-1 px-3 bg-zinc-800 rounded">Web-Blog</li>
-                  <li className="text-sm py-1 px-3 bg-zinc-800 rounded">SEMRush</li>
-                  <li className="text-sm py-1 px-3 bg-zinc-800 rounded">Landing Page Creation</li>
-                  <li className="text-sm py-1 px-3 bg-zinc-800 rounded">Search Console</li>
-                  <li className="text-sm py-1 px-3 bg-zinc-800 rounded">Google Analytics</li>
+                  <li className="text-sm py-1 px-3 border border-zinc-700 rounded">On-Page SEO</li>
+                  <li className="text-sm py-1 px-3 border border-zinc-700 rounded">Off-Page SEO</li>
+                  <li className="text-sm py-1 px-3 border border-zinc-700 rounded">Web-Blog</li>
+                  <li className="text-sm py-1 px-3 border border-zinc-700 rounded">SEMRush</li>
+                  <li className="text-sm py-1 px-3 border border-zinc-700 rounded">Landing Page Creation</li>
+                  <li className="text-sm py-1 px-3 border border-zinc-700 rounded">Search Console</li>
+                  <li className="text-sm py-1 px-3 border border-zinc-700 rounded">Google Analytics</li>
                   <img src={dot} alt=""/>
                 </ul>
                 <div className="mt-4 flex items-center flex-wrap gap-3">
@@ -100,14 +100,14 @@ function Skills(){
               <div>
                 <h5 className="font-bold text-lg  w-full border-b-[1px] border-zinc-700 pb-1">Skills &amp; Tool's</h5>
                 <ul className=" flex items-center flex-wrap mt-3 gap-2">
-                  <li className="text-sm py-1 px-3 bg-zinc-800 rounded">Google Ads</li>
-                  <li className="text-sm py-1 px-3 bg-zinc-800 rounded">Meta Ads</li>
-                  <li className="text-sm py-1 px-3 bg-zinc-800 rounded">Social Media Content</li>
-                  <li className="text-sm py-1 px-3 bg-zinc-800 rounded">Event</li>
-                  <li className="text-sm py-1 px-3 bg-zinc-800 rounded">E-Commerce / Marketplace</li>
-                  <li className="text-sm py-1 px-3 bg-zinc-800 rounded">Copywriting</li>
-                  <li className="text-sm py-1 px-3 bg-zinc-800 rounded">Pay-Per-Click</li>
-                  <li className="text-sm py-1 px-3 bg-zinc-800 rounded">Video Creation</li>
+                  <li className="text-sm py-1 px-3 border border-zinc-700 rounded">Google Ads</li>
+                  <li className="text-sm py-1 px-3 border border-zinc-700 rounded">Meta Ads</li>
+                  <li className="text-sm py-1 px-3 border border-zinc-700 rounded">Social Media Content</li>
+                  <li className="text-sm py-1 px-3 border border-zinc-700 rounded">Event</li>
+                  <li className="text-sm py-1 px-3 border border-zinc-700 rounded">E-Commerce / Marketplace</li>
+                  <li className="text-sm py-1 px-3 border border-zinc-700 rounded">Copywriting</li>
+                  <li className="text-sm py-1 px-3 border border-zinc-700 rounded">Pay-Per-Click</li>
+                  <li className="text-sm py-1 px-3 border border-zinc-700 rounded">Video Creation</li>
                   <img src={dot} alt=""/>
                 </ul>
                 <div className="mt-4 flex items-center flex-wrap gap-3">
