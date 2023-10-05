@@ -38,12 +38,12 @@ function Skills(){
               <div className="grid gap-3">
                 <h5 className="font-bold text-lg">Most Used Languages</h5>
                 <div className="flex items-center relative w-full overflow-hidden h-2.5 rounded-md">
-                  <span className="w-2/5 bg-orange-500 h-2.5"></span>
-                  <span className="w-3/5 bg-blue-500 h-2.5"></span>
-                  <span className="w-2/5 bg-yellow-500 h-2.5"></span>
+                  <span className="w-[20%] bg-amber-600 h-2.5"></span>
+                  <span className="w-[60%] bg-blue-500 h-2.5"></span>
+                  <span className="w-[20%] bg-yellow-500 h-2.5"></span>
                 </div>
                 <div className="flex items-center justify-between mb-5">
-                  <span className="text-indicator relative before:bg-orange-500 font-bold text-sm">HTML 20%</span>
+                  <span className="text-indicator relative before:bg-amber-600 font-bold text-sm">HTML 20%</span>
                   <span className="text-indicator relative before:bg-blue-500 font-bold text-sm">CSS 60%</span>
                   <span className="text-indicator relative before:bg-yellow-500 font-bold text-sm">JavaScript 20%</span>
                 </div>
@@ -86,14 +86,14 @@ function Skills(){
               <div className="grid gap-3">
                 <h5 className="font-bold text-lg">Common Job</h5>
                 <div className="flex items-center relative w-full overflow-hidden h-2.5 rounded-md">
-                  <span className="w-3/5 bg-orange-500 h-2.5"></span>
-                  <span className="w-1/5 bg-blue-500 h-2.5"></span>
-                  <span className="w-32 bg-yellow-500 h-2.5"></span>
+                  <span className="w-[60%] bg-indigo-500 h-2.5"></span>
+                  <span className="w-[10%] bg-pink-500 h-2.5"></span>
+                  <span className="w-[30%] bg-lime-500 h-2.5"></span>
                 </div>
                 <div className="flex items-center justify-between mb-5">
-                  <span className="text-indicator relative before:bg-orange-500 font-bold text-sm">Design 60%</span>
-                  <span className="text-indicator relative before:bg-blue-500 font-bold text-sm">Video 10%</span>
-                  <span className="text-indicator before:bg-yellow-500 relative font-bold text-sm">Other 30%</span>
+                  <span className="text-indicator relative before:bg-indigo-500 font-bold text-sm">Design 60%</span>
+                  <span className="text-indicator relative before:bg-pink-500 font-bold text-sm">Video 10%</span>
+                  <span className="text-indicator before:bg-lime-500 relative font-bold text-sm">Other 30%</span>
                 </div>
               </div>
               {/* Progress */}
