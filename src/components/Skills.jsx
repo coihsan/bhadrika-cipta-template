@@ -14,6 +14,7 @@ import illustrator from '../assets/illustrator.svg';
 import AE from '../assets/after-effects.svg';
 import dot from '../assets/triple-dot.svg';
 
+
 function Skills(){
   return (
     <div className="section m-auto max-[600px]:w-full" id="Skills">
@@ -62,13 +63,13 @@ function Skills(){
                   <img src={dot} alt=""/>
                 </ul>
                 <div className="mt-4 flex items-center flex-wrap gap-3">
-                  <img className="w-11" src={js} alt="javascript"/>
-                  <img className="w-10" src={css} alt="css"/>
-                  <img className="w-10" src={html} alt="html"/>
-                  <img className="w-12" src={react} alt="react"/>
-                  <img className="w-12" src={vite} alt="vite"/>
-                  <img className="w-12" src={tailwind} alt="tailwind"/>
-                  <img className="w-10" src={astroGradient} alt="astro"/>
+                  <img className="w-11 iconskills" src={js} alt="javascript"/>
+                  <img className="w-10 iconskills" src={css} alt="css"/>
+                  <img className="w-10 iconskills" src={html} alt="html"/>
+                  <img className="w-12 iconskills" src={react} alt="react"/>
+                  <img className="w-12 iconskills" src={vite} alt="vite"/>
+                  <img className="w-12 iconskills" src={tailwind} alt="tailwind"/>
+                  <img className="w-10 iconskills" src={astroGradient} alt="astro"/>
                 </div>
               </div>
             </div>
