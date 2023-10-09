@@ -31,8 +31,8 @@ function Skills(){
               {/* skills header */}
               <div className="mb-6" >
                 <img className="w-20 mb-5 m-auto" src={webdev} alt=""/>
-                <h3 className="text-3xl font-bold text-center mb-3">Web / SEO</h3>
-                <p className="text-center">I am a web designer with experience in creating landing pages using HTML, CSS, and JavaScript.</p>
+                <h3 className="text-3xl font-bold text-center mb-3">Web Development</h3>
+                <p className="text-center">I am a web development with experience in creating landing pages using HTML, CSS, and JavaScript.</p>
               </div>
               {/* skills header */}
               {/* Progress */}
@@ -92,9 +92,9 @@ function Skills(){
                   <span className="w-[30%] bg-lime-500 h-2.5"></span>
                 </div>
                 <div className="flex items-center justify-between mb-5">
-                  <span className="text-indicator relative before:bg-indigo-500 font-bold text-sm">Design 60%</span>
-                  <span className="text-indicator relative before:bg-pink-500 font-bold text-sm">Video 10%</span>
-                  <span className="text-indicator before:bg-lime-500 relative font-bold text-sm">Other 30%</span>
+                  <span className="text-indicator relative before:bg-indigo-500 font-bold text-sm">Google 60%</span>
+                  <span className="text-indicator relative before:bg-pink-500 font-bold text-sm">Meta Ads 10%</span>
+                  <span className="text-indicator before:bg-lime-500 relative font-bold text-sm">SEO 30%</span>
                 </div>
               </div>
               {/* Progress */}

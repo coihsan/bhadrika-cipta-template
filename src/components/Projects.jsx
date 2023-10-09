@@ -2,6 +2,30 @@ import { useState } from 'react'
 import preview from '../assets/preview.svg';
 import github from '../assets/github.svg';
 import sparkless from '../assets/sparkless.svg';
+
+const Resource =[
+  {
+    imgURL: "https://coihsan.github.io/iseng/assets/project-1.jpg",
+    gitLink: "#",
+    liveDemo: "#"
+  },
+  {
+    imgURL: "https://coihsan.github.io/iseng/assets/project-2.png",
+    gitLink: "#",
+    liveDemo: "#"
+  },
+  {
+    imgURL: "https://coihsan.github.io/iseng/assets/project-3.jpg",
+    gitLink: "#",
+    liveDemo: "#"
+  },
+  {
+    imgURL: "https://coihsan.github.io/iseng/assets/project-4.png",
+    gitLink: "#",
+    liveDemo: "#"
+  }
+]
+
 function Projects(){
   return (
     <div className="section max-[600px]:w-full">
@@ -15,21 +39,15 @@ function Projects(){
         </div>
         <div className="grid grid-cols-2 gap-3 max-[600px]:grid-cols-1">
           {/* content 1 */}
-          <div className="relative overflow-hidden">
-          <img className="hover:scale-[1.1] delay-0 transition-all duration-[1000ms] ease-in origin-top" src={'https://coihsan.github.io/profile/assets/jhondoe-hero.webp'} alt=""/>
-            <div className="absolute bottom-0 right-0 flex items-center backdrop-blur-md bg-white/10 backdrop-opacity-10 backdrop-invert">
-              <a className="text-sm flex items-center gap-2 hover:bg-zinc-900 px-3 py-1" href="#"><img className="w-4" src={github} alt=""/>Get Code</a>
-              <a className="text-sm flex items-center gap-2 hover:bg-zinc-900 px-3 py-1" href="#"><img className="w-4" src={preview} alt=""/>Live Demo</a>
+          {Resource.map((Resource) =>(
+            <div className="relative overflow-hidden">
+            <img className="hover:scale-[1.1] delay-0 transition-all duration-[1000ms] ease-in origin-top" src={Resource.imgURL} alt=""/>
+              <div className="absolute bottom-0 right-0 flex items-center backdrop-blur-md bg-white/10 backdrop-opacity-10 backdrop-invert">
+                <a className="text-sm flex items-center gap-2 hover:bg-zinc-900 px-3 py-1" href={Resource.gitLink}><img className="w-4" src={github} alt=""/>Get Code</a>
+                <a className="text-sm flex items-center gap-2 hover:bg-zinc-900 px-3 py-1" href={Resource.liveDemo}><img className="w-4" src={preview} alt=""/>Live Demo</a>
+              </div>
             </div>
-          </div>
-          {/* content 2 */}
-          <div className="relative overflow-hidden">
-          <img className="hover:scale-[1.1] delay-0 transition-all duration-[1000ms] ease-in origin-top" src={'https://coihsan.github.io/profile/assets/Mack-Smith-Resume-2023.webp'} alt=""/>
-          <div className=" absolute bottom-0 right-0 flex items-center backdrop-blur-md bg-white/10 backdrop-opacity-10 backdrop-invert">
-              <a className="text-sm flex items-center gap-2 hover:bg-zinc-900 px-3 py-1" href="#"><img className="w-4" src={github} alt=""/>Get Code</a>
-              <a className="text-sm flex items-center gap-2 hover:bg-zinc-900 px-3 py-1" href="#"><img className="w-4" src={preview} alt=""/>Live Demo</a>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
       <div className="mb-separator w-full h-px bg-zinc-800"></div>

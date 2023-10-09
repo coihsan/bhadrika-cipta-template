@@ -18,7 +18,6 @@ function Aboutme(){
         <h1 className="text-5xl mb-5 font-bold max-[470px]:text-4xl ">Short Bio</h1>
         <p>I am a digital marketing enthusiast with a passion for helping businesses grow online. I have over 5 years of experience in the industry, and I am an expert in a variety of digital marketing channels, including search engine optimization (SEO), pay-per-click advertising (PPC), social media marketing, and content marketing. I am also a certified Google Ads Expert.</p>
         <br/>
-        <p className="">See all my badges on <a className="text-sky-400" target="_blank" href="https://www.credential.net/profile/muhammadihsan/wallet">Accredible <i class="fa-solid fa-arrow-up-right-from-square text-zinc-400"></i></a></p> 
         </div>
         </div>
         
