@@ -9,14 +9,14 @@ function Aboutme(){
         <div className="container">
         <div className="flex items-center gap-10 w-10/12 m-auto max-[600px]:flex-col">
         <div className="max-[600px]:justify-center">
-        <img className="mx-auto w-11/12 max-[600px]:w-56 rounded-full" src={'https://coihsan.github.io/profile/assets/avatar.webp'} alt="" />
+        <img className="mx-auto w-11/12 max-[600px]:w-56 rounded-full" src={'https://coihsan.github.io/iseng/assets/1690805230779.webp'} alt="avatar" />
         <div className="line-separator-hero">
             <span></span>
         </div>
         </div>
         <div>
         <h1 className="text-5xl mb-5 font-bold max-[470px]:text-4xl ">Short Bio</h1>
-        <p>2016 was the year I started my career as a Graphic Designer, and in 2018 I started my career as a Design and Digital Marketer. and now I am expanding my knowledge and skills in Marketing Department such as Design, Digital Marketing including SEO and Web Developer.</p>
+        <p>I am a digital marketing enthusiast with a passion for helping businesses grow online. I have over 5 years of experience in the industry, and I am an expert in a variety of digital marketing channels, including search engine optimization (SEO), pay-per-click advertising (PPC), social media marketing, and content marketing. I am also a certified Google Ads Expert.</p>
         <br/>
         <p className="">See all my badges on <a className="text-sky-400" target="_blank" href="https://www.credential.net/profile/muhammadihsan/wallet">Accredible <i class="fa-solid fa-arrow-up-right-from-square text-zinc-400"></i></a></p> 
         </div>

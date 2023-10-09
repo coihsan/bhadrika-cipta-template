@@ -8,7 +8,7 @@ import BuildaWebsite from "./pages/buildawebsite";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/*",
     element: <App />,
     errorElement: <ErrorPage />,
   },
