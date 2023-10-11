@@ -19,7 +19,7 @@ import Skills from './Skills';
         </div>
         <div className="flex gap-2 menu-dekstop">
           <img src={arrow} alt=""/>
-          <a className="navlink" target="_blank" href="https://t.me/contactihsan">Let's Talk!</a>
+          <a className="navlink" target="_blank" href="#">Let's Talk!</a>
         </div>
       </div>
     </nav>

@@ -10,7 +10,7 @@ const Footer = () =>{
               <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
               <a target="" href="#"><i class="fa-brands fa-linkedin"></i></a>
               <a href="#"><i class="fa-brands fa-github"></i></a>
-              <a target="_blank" href="https://codepen.io/coihsan"><i class="fa-brands fa-codepen"></i></a>
+              <a target="_blank" href="#"><i class="fa-brands fa-codepen"></i></a>
         </div>
      </div>
     </div>
